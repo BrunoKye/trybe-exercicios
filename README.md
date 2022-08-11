@@ -6,20 +6,20 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
-##### Bloco 1: [Introdução - Unix e Shell]()
+##### Bloco 1: [Introdução - Unix e Shell](https://github.com/brunokye/trybe-exercicios/tree/main/01-fundamentos/bloco-01-unix-e-bash)
 - [x] 1.1: Fundamentos do Desenvolvimento Web
 - [x] 1.1: Introdução - Unix & Shell
 - [x] 1.1: Unix & Bash - Part 1
 - [x] 1.2: Unix & Bash - Part 2
 
-##### Bloco 2: [Git e GitHub]()
+##### Bloco 2: [Git e GitHub](https://github.com/brunokye/trybe-exercicios/tree/main/01-fundamentos/bloco-02-git-github-e-internet)
 - [x] 2.1: Git & Github - O que é e para que serve?
-- [ ] 2.2: Git & Github - Entendendo os comandos
-- [ ] 2.3: Internet - Entendendo como ela funciona
+- [x] 2.2: Git & Github - Entendendo os comandos
+- [x] 2.3: Internet - Entendendo como ela funciona
 
 ##### Bloco 3: [Introdução à HTML e CSS]()
-- [ ] 3.1: Introdução - HTML & CSS
-- [ ] 3.1: HTML & CSS - Estruturas de página
+- [x] 3.1: Introdução - HTML & CSS
+- [x] 3.1: HTML & CSS - Estruturas de página
 - [ ] 3.2: HTML & CSS - Primeiros passos em CSS
 - [ ] 3.3: HTML & CSS - Seletores e posicionamento
 - [ ] 3.4: HTML Semântico
