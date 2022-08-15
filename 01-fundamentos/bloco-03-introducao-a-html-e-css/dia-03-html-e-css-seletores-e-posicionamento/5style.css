@@ -1,0 +1,60 @@
+ol{
+    background-color: yellow;
+}
+
+ol li:nth-of-type(2n){ 
+    color: green;
+}
+
+ol li:nth-of-type(2n+1){
+    text-transform: capitalize;
+}
+
+.title{
+    color: red;
+}
+
+.title em{
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li{
+    font-size: 20px;
+}
+
+li em{
+    font-weight: bold;
+}
+
+.languages li:nth-child(-n+3){
+    color: blue;
+}
+
+.languages{
+    background-color: pink;
+}
+
+.allies a:hover{
+    font-weight: bold;
+}
+
+.allies li:nth-of-type(1) a:hover{
+    color: orange;
+}
+
+.allies li:nth-of-type(2) a:hover{
+    color: green;
+}
+
+.allies li:nth-of-type(3) a:hover{
+    color: black;
+}
+
+.allies li:nth-of-type(4) a:hover{
+    color: yellow;
+}
+
+.allies li:nth-of-type(5) a:hover{
+    color: lightgreen;
+}
