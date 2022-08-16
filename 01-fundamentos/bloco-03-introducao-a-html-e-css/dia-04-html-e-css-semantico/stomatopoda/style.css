@@ -8,14 +8,33 @@ body{
     margin-right: 20%;
 }
 
-h1, h2, h3, h4{
+h1, h2{
     text-align: center;
+}
+
+h1, h2, h3, h4{
     padding: 10px;
 }
 
 p{
     padding: 10px;
     text-align: justify;
+}
+
+.inicial-space{
+    margin-left: 40px
+}
+.contrast{
+    font-weight: bold;
+}
+
+.small-text{
+    font-size: 80%;
+}
+
+.small-space{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .image-config{
@@ -37,5 +56,36 @@ p{
     border: 1px solid #aaa;
     padding: 2px;
     margin: 10px;
+    margin-top: 20px;
     text-align: center;
+}
+
+.table-title{
+    background-color: pink;
+}
+
+#table-subtitle{
+    background-color: pink;
+    color: blue;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#bibliography{
+    text-align: center;
+}
+
+.bibliography-list li{
+    display: inline;
+    text-decoration: none;
+}
+
+#video{
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p{
+    text-align: center;
+    padding: 20px;
 }
