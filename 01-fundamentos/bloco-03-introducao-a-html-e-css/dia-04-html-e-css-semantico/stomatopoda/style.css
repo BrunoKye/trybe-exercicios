@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, p{
+    text-align: center;
+}
+
+#main-title{
+    margin-top: 10px;
+}
+
+.menu{
+    text-align: center;
+    padding: 20px;
+}
+
+.table-info{
+    font-size: 90%;
+    float: right;
+    border: 1px solid #aaa;
+    padding: 2px;
+    text-align: center;
+}
