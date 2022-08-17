@@ -2,7 +2,7 @@
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por [Bruno Ferreira](https://www.linkedin.com/in/brunokye/) enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
->A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho. O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+>A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho. O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
@@ -17,12 +17,12 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 2.2: Git & Github - Entendendo os comandos
 - [x] 2.3: Internet - Entendendo como ela funciona
 
-##### Bloco 3: [Introdução à HTML e CSS]()
+##### Bloco 3: [Introdução à HTML e CSS](https://github.com/brunokye/trybe-exercicios/tree/main/01-fundamentos/bloco-03-introducao-a-html-e-css)
 - [x] 3.1: Introdução - HTML & CSS
 - [x] 3.1: HTML & CSS - Estruturas de página
-- [ ] 3.2: HTML & CSS - Primeiros passos em CSS
-- [ ] 3.3: HTML & CSS - Seletores e posicionamento
-- [ ] 3.4: HTML Semântico
+- [x] 3.2: HTML & CSS - Primeiros passos em CSS
+- [x] 3.3: HTML & CSS - Seletores e posicionamento
+- [x] 3.4: HTML Semântico
 - [ ] 3.5: [Projeto - Lessons Learned]()
 
 ##### Bloco 4: [Introdução à JavaScript e Lógica de Programação]()
