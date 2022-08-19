@@ -2,7 +2,7 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let sum = 0;
 let avgValue = 0;
 let highestNumber = numbers[0];
-
+let countOdd = 0;
 
 /* 1. Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a função console.log(); 
 console.log(numbers); */
@@ -37,16 +37,32 @@ else {
     console.log('Valor menor ou igual a 20.'); 
 } */
 
-/* 5. :rocket: Utilizando for, descubra qual o maior valor contido no array e imprima-o; */
+/* 5. :rocket: Utilizando for, descubra qual o maior valor contido no array e imprima-o; 
 for(let i = 0; i < numbers.length; i += 1){
     if(numbers[i] > highestNumber){
         highestNumber = numbers[i];
     }
 }
 
-console.log(highestNumber);
+console.log(highestNumber); */
 
 /* 6. Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado"; */
+for(let i = 0; i < numbers.length; i += 1){
+    if(numbers[i] % 2 === 1){
+        countOdd += 1;
+    }
+    else {
+        continue;
+    }
+}
+
+if(countOdd === 0){
+    console.log('Nenhum valor ímpar foi encontrado.');
+}
+else {
+    console.log(countOdd);
+}
+
 /* 7. Utilizando for, descubra qual o menor valor contido no array e imprima-o; */
 /* 8. Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado; */
 /* 9. Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2. */
