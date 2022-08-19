@@ -67,10 +67,19 @@ else {
 /* 7. Utilizando for, descubra qual o menor valor contido no array e imprima-o;
 console.log(Math.min(...numbers)); */
 
-/* 8. Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado; */
+/* 8. Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado;
 for (let i = 1; i <= 25; i += 1){
     newNumbers.push(i);
 }
 
-console.log(newNumbers);
+console.log(newNumbers); */
+
 /* 9. Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2. */
+for (let i = 1; i <= 25; i += 1){
+    newNumbers.push(i/2);
+    
+}
+
+console.log(newNumbers);
+
+/* corrigir para que a divisão aconteça na resposta e não na criação do array. */
