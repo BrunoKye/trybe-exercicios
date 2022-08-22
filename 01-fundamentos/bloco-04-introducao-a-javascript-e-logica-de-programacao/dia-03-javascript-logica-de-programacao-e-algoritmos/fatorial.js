@@ -1,7 +1,8 @@
-let mult = 1;
+let factorial = 5;
+let result = 1;
 
-for(let i = 1; i <= 10; i += 1){
-    mult *= i;
+for(let i = 1; i <= factorial; i += 1){
+    result *= i;
 }
 
-console.log(mult);
+console.log('O fatorial de', factorial, 'é:', result);

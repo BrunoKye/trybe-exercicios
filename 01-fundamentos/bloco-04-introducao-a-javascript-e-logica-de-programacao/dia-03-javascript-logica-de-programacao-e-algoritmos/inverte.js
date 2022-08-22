@@ -1,3 +1,3 @@
 let word = 'tryber';
 
-console.log(word.split('').reverse().join('')); 
+console.log('A palavra', word, 'invertida:', word.split('').reverse().join('')); 
