@@ -23,12 +23,12 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 3.2: HTML & CSS - Primeiros passos em CSS
 - [x] 3.3: HTML & CSS - Seletores e posicionamento
 - [x] 3.4: HTML Semântico
-- [ ] 3.5: [Projeto - Lessons Learned]()
+- [x] 3.5: [Projeto - Lessons Learned](https://github.com/brunokye/trybe-exercicios/tree/main/01-fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao)
 
-##### Bloco 4: [Introdução à JavaScript e Lógica de Programação]()
-- [ ] 4.1: Introdução - JavaScript
-- [ ] 4.1: JavaScript - Primeiros passos
-- [ ] 4.2: JavaScript - Array e loop For
+##### Bloco 4: [Introdução à JavaScript e Lógica de Programação](https://github.com/brunokye/trybe-exercicios/tree/main/01-fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao)
+- [x] 4.1: Introdução - JavaScript
+- [x] 4.1: JavaScript - Primeiros passos
+- [x] 4.2: JavaScript - Array e loop For
 - [ ] 4.3: JavaScript - Lógica de Programação e Algoritmos
 - [ ] 4.4: JavaScript - Objetos e funções
 - [ ] 4.5: [Projeto - Playground Functions]()
