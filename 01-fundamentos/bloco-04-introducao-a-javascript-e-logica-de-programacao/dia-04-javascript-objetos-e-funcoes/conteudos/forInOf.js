@@ -14,6 +14,6 @@ let car = {
     year: 2020
 };
 
-for(let index in car){
-    console.log(index, car[index]);
+for(let key in car){
+    console.log(index, car[key]);
 }
