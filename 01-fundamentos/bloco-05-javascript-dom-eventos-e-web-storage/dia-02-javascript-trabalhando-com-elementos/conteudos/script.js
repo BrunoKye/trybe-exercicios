@@ -1,3 +1,4 @@
+// :rockect: Parte 1
 // 1. Acesse o elemento elementoOndeVoceEsta. 
 let elemento = document.getElementById("elementoOndeVoceEsta");
 
@@ -23,3 +24,20 @@ let terceiroElemento = document.getElementById("elementoOndeVoceEsta").nextEleme
 
 // 8. Agora acesse o terceiroFilho a partir de pai. 
 let terceiroPai = document.getElementById("pai").children[2];
+
+
+// :rockect: Parte 2
+// 1. Crie um irmão para elementoOndeVoceEsta.
+let irmao = document.createElement("section");
+elemento.insertAdjacentElement("afterend", irmao);
+
+// 2. Crie um filho para elementoOndeVoceEsta.
+let filhoElemento = document.createElement("section");
+elemento.appendChild(filhoElemento);
+
+// 3. Crie um filho para primeiroFilhoDoFilho.
+let filhoPrimeiro = document.createElement("section");
+texto.appendChild(filhoPrimeiro);
+
+// 4. A partir desse filho criado, acesse terceiroFilho.
+let filhoTerceiro = document.querySelectorAll("#primeiroFilhoDoFilho section")[0].parentElement.parentElement.nextElementSibling.nextElementSibling;
