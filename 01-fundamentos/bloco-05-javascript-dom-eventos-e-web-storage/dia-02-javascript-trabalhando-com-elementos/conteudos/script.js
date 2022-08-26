@@ -1,4 +1,4 @@
-// :rockect: Parte 1
+// :rockect: Parte 1 - Buscando elementos
 // 1. Acesse o elemento elementoOndeVoceEsta. 
 let elemento = document.getElementById("elementoOndeVoceEsta");
 
@@ -26,18 +26,44 @@ let terceiroElemento = document.getElementById("elementoOndeVoceEsta").nextEleme
 let terceiroPai = document.getElementById("pai").children[2];
 
 
-// :rockect: Parte 2
+// :rockect: Parte 2 - Criando elementos
 // 1. Crie um irmão para elementoOndeVoceEsta.
 let irmao = document.createElement("section");
 elemento.insertAdjacentElement("afterend", irmao);
+irmao.id = "irmao";
 
 // 2. Crie um filho para elementoOndeVoceEsta.
 let filhoElemento = document.createElement("section");
 elemento.appendChild(filhoElemento);
+filhoElemento.id = "elementoFilho"
 
 // 3. Crie um filho para primeiroFilhoDoFilho.
 let filhoPrimeiro = document.createElement("section");
 texto.appendChild(filhoPrimeiro);
+filhoPrimeiro.id = "filhoDoFilhoDoFilho";
 
 // 4. A partir desse filho criado, acesse terceiroFilho.
-let filhoTerceiro = document.querySelectorAll("#primeiroFilhoDoFilho section")[0].parentElement.parentElement.nextElementSibling.nextElementSibling;
+let filhoTerceiro = document.getElementById("filhoDoFilhoDoFilho").parentElement.parentElement.nextElementSibling.nextElementSibling;
+
+// Parte 3 - Removendo elementos
+// Remova todos os elementos filhos de paiDoPai exceto pai, elementoOndeVoceEsta e primeiroFilhoDoFilho.
+let paiDoPai = document.getElementById("paiDoPai");
+let pai = document.getElementById("pai");
+
+pai.removeChild(primeiroFilho);
+pai.removeChild(irmao);
+pai.removeChild(atencao);
+pai.removeChild(terceiroFilho);
+pai.removeChild(quartoEUltimoFilho);
+
+let elementoPai = document.getElementById("elementoOndeVoceEsta");
+
+elementoPai.removeChild(segundoEUltimoFilhoDoFilho);
+elementoPai.removeChild(elementoFilho);
+
+let primeiroFilhoDoFilho = document.getElementById("primeiroFilhoDoFilho");
+
+primeiroFilhoDoFilho.removeChild(primeiroFilhoDoFilho.firstChild);
+primeiroFilhoDoFilho.removeChild(filhoDoFilhoDoFilho);
+
+console.log(paiDoPai);
