@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p class="equal" id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p class="equal" id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "purple";
+
+      // 1. Recupere o elemento que contém o título da página e faça algo com ele, como alterá-lo para o nome do seu filme favorito.
+      // document.getElementById("page-title").innerText = "Interestellar";
+
+      document.querySelector("#page-title").innerText = "Interestellar";
+
+      // 2. Agora recupere o segundo parágrafo e use sua criatividade para alterá-lo.
+      // document.getElementById("second-paragraph").innerText =
+        // "Um novo parágrafo super legal e criativo.";
+
+      document.querySelector("#second-paragraph").innerText =
+        "Um novo parágrafo super legal e criativo.";
+
+      // 3. Por fim, recupere o subtítulo e altere-o também.
+      // document.getElementById("subtitle").innerHTML =
+        // "Me Falta Criatividade (ou talvez vontade)";
+
+      document.querySelector("#subtitle").innerText =
+        "Me Falta Criatividade (ou talvez vontade)";
+
+      // 1. Adicione uma classe igual para os dois parágrafos.
+      // 2. Recupere os seus parágrafos via código JavaScript, usando a função getElementsByClassName;
+      // 3. Altere algum estilo do primeiro deles.
+      // let equal = document.getElementsByClassName("equal")[0];
+      // equal.style.color = "green";
+
+      let equal = document.querySelectorAll(".equal")[0];
+      equal.style.color = "green";
+
+      // 4.  Recupere o subtítulo e altere a cor dele usando a função getElementsByTagName.
+      // let subtitle = document.getElementsByTagName("h4")[0];
+      // subtitle.style.color = "blue";
+
+      let subtitle = document.querySelectorAll("h4")[0];
+      subtitle.style.color = "blue";     
+    </script>
+  </body>
+</html>
