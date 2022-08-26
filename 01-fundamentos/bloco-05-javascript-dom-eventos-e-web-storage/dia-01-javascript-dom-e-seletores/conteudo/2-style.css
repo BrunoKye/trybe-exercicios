@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  font-family: monospace;
+  text-align: center;
+}
+
+#header-container , #footer-container {
+  font-weight: bold;
+  padding: 20px;
+}
+
+article {
+  display: flex;
+  padding: 50px;
+}
+
+.div-art {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#subYes1 .text , #subYes2 .text {
+  padding: 10px 50px 10px;
+  margin-bottom: 50px;
+}
+
+#space {
+  padding: 2px;
+}
+
+#subNo1 .text , #subNo2 .text {
+  padding: 10px 50px 10px;
+  margin-bottom: 50px;
+}
+
+#footer-container {
+  font-size: 15px;
+}
