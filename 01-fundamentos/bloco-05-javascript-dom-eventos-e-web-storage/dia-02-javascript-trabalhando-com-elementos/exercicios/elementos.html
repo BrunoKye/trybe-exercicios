@@ -105,26 +105,27 @@
         // 8. Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
         let uList = document.createElement("ul");
         let uListItems = [
-          'um',
-          'dois',
-          'três',
-          'quatro',
-          'cinco',
-          'seis',
-          'sete',
-          'oito',
-          'nove',
-          'dez'
+          "um",
+          "dois",
+          "três",
+          "quatro",
+          "cinco",
+          "seis",
+          "sete",
+          "oito",
+          "nove",
+          "dez"
         ];
 
         thirdSection.appendChild(uList);
-
+        
         for (let i = 0; i < uListItems.length; i += 1) {
-          let listBase = uListItems[i];
-          let listReady = document.createElement('li');
+          let list = uListItems[i];
+          let listItems = document.createElement('li');
 
-          listReady.innerText = listBase;
-          uList.appendChild(listReady);
+          listItems.className = 'list-items';
+          listItems.innerText = list;
+          uList.appendChild(listItems);
         }
 
         // 9. Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
@@ -159,6 +160,17 @@
         main.style.backgroundColor = "green";
 
         // 6. Remova os dois últimos elementos (nove e dez) da lista criada no passo 8.
+        let listUpdate = document.querySelectorAll('.list-items');
+
+        for (let i = 0; i < listUpdate.length; i += 1) {
+          let item = listUpdate[i];
+
+          if (item.innerText.includes("nove")) {
+            uList.removeChild(item);
+          } else if (item.innerText.includes("dez")) {
+            uList.removeChild(item);
+          }
+        }
     </script>
   </body>
 </html>
