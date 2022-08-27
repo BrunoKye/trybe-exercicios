@@ -128,6 +128,17 @@
         }
 
         // 9. Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
+        let firstSubtitle = document.createElement("h3");
+        let secondSubtitle = document.createElement("h3");
+        let thirdSubtitle = document.createElement("h3");
+
+        firstSubtitle.innerText = "Subtítulo 1";
+        secondSubtitle.innerText = "Subtítulo 2";
+        thirdSubtitle.innerText = "Subtítulo 3";
+
+        main.appendChild(firstSubtitle);
+        main.appendChild(secondSubtitle);
+        main.appendChild(thirdSubtitle);
         
         // :rockect Agora que você criou muita coisa, vamos fazer algumas alterações e remoções:
         // 1. Adicione a classe title na tag h1 criada;
