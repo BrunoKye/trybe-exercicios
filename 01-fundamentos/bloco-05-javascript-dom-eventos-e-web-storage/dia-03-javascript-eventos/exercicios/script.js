@@ -84,3 +84,19 @@ btnFridays.addEventListener("click", function () {
     element.innerText = "Sextou :)";
   });
 });
+
+// Exercício 6: Implemente duas funções que criem um efeito de "zoom".
+function zoomIn(event) {
+  event.target.style.fontSize = "30px";
+}
+
+function zoomOut(event) {
+  event.target.style.fontSize = "20px";
+}
+
+let liDays = document.querySelectorAll(".days");
+
+liDays.forEach((element) => {
+  element.addEventListener("mouseover", zoomIn);
+  element.addEventListener("mouseout", zoomOut);
+});
