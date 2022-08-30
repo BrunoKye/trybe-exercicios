@@ -40,7 +40,7 @@ function calendarDays() {
 calendarDays();
 
 // Exercício 2: Implemente uma função que crie dinamicamente um botão com o nome "Feriados".
-function buttonHolidays(Feriados) {
+function buttonHolidays() {
   let btnContainer = document.querySelector(".buttons-container");
   let btnHolidays = document.createElement("button");
 
@@ -62,3 +62,15 @@ btnHolidays.addEventListener("click", function () {
     element.style.backgroundColor = "white";
   });
 });
+
+// Exercício 4: Implemente uma função que crie dinamicamente um botão com o nome "Sexta-feira". Sua função deve receber como parâmetro a string "Sexta-feira".
+function buttonSundays() {
+  let btnContainer = document.querySelector(".buttons-container");
+  let btnSundays = document.createElement("button");
+
+  btnContainer.appendChild(btnSundays);
+  btnSundays.id = "btn-friday";
+  btnSundays.innerText = "Sexta-feira";
+}
+
+buttonSundays();
