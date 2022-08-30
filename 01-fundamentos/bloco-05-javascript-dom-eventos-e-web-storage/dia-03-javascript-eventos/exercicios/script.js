@@ -38,3 +38,15 @@ function calendarDays() {
 }
 
 calendarDays();
+
+// Exercício 2: Implemente uma função que crie dinamicamente um botão com o nome "Feriados".
+function buttonHolidays(Feriados) {
+  let btnContainer = document.querySelector(".buttons-container");
+  let btnHolidays = document.createElement("button");
+
+  btnContainer.appendChild(btnHolidays);
+  btnHolidays.id = "btn-holiday";
+  btnHolidays.innerText = "Feriados";
+}
+
+buttonHolidays();
