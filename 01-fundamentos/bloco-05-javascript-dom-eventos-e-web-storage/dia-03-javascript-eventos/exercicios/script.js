@@ -56,7 +56,6 @@ let btnHolidays = document.getElementById("btn-holiday");
 
 btnHolidays.addEventListener("click", function () {
   let colorHolidays = document.querySelectorAll(".holiday");
-  let stateHolidays = false;
   
   colorHolidays.forEach((element) => {
     element.style.backgroundColor = "white";
@@ -64,13 +63,24 @@ btnHolidays.addEventListener("click", function () {
 });
 
 // Exercício 4: Implemente uma função que crie dinamicamente um botão com o nome "Sexta-feira". Sua função deve receber como parâmetro a string "Sexta-feira".
-function buttonSundays() {
+function buttonFridays() {
   let btnContainer = document.querySelector(".buttons-container");
-  let btnSundays = document.createElement("button");
+  let btnFridays = document.createElement("button");
 
-  btnContainer.appendChild(btnSundays);
-  btnSundays.id = "btn-friday";
-  btnSundays.innerText = "Sexta-feira";
+  btnContainer.appendChild(btnFridays);
+  btnFridays.id = "btn-friday";
+  btnFridays.innerText = "Sexta-feira";
 }
 
-buttonSundays();
+buttonFridays();
+
+// Exercício 5: Implemente uma função que modifica o texto exibido nos dias que são Sexta-feira.
+let btnFridays = document.getElementById("btn-friday");
+
+btnFridays.addEventListener("click", function () {
+  let textFridays = document.querySelectorAll(".friday");
+  
+  textFridays.forEach((element) => {
+    element.innerText = "Sextou :)";
+  });
+});
