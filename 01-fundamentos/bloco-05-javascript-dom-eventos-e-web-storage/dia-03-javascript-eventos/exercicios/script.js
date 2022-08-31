@@ -144,12 +144,21 @@ selectTaskColor.addEventListener("click", selected)
 
 
 // Exercício 10: Implemente uma função que atribua a cor da tarefa ao dia do calendário.
-let selectTaskDay = document.querySelector(".task-selected");
+function setDayColor() {
+  let selectedTask = document.getElementsByClassName('task-selected');
+  let days = document.querySelector("#days");
+  let taskDiv = document.querySelector(".task");
+  let taskColor = taskDiv.style.backgroundColor;
 
-function changeDayColor() {
-  liDays.innerText.style.color = selectTaskDay;
+  days.addEventListener("click", function(event) {
+    let verifyColor = event.target.style.color;
+
+    if (selectedTask.length > 0 && verifyColor !== taskColor) {
+      event.target.style.color = taskColor;
+    } else if (verifyColor === taskColor) {
+      event.target.style.color = "rgb(119,119,119)";
+    }
+  });
 }
 
-liDays.forEach((element) => {
-  element.addEventListener("click", changeDayColor);
-});
+setDayColor();
