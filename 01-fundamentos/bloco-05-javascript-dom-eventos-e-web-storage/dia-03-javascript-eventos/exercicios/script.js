@@ -39,6 +39,7 @@ function calendarDays() {
 
 calendarDays();
 
+
 // Exercício 2: Implemente uma função que crie dinamicamente um botão com o nome "Feriados".
 function buttonHolidays() {
   let btnContainer = document.querySelector(".buttons-container");
@@ -51,6 +52,7 @@ function buttonHolidays() {
 
 buttonHolidays();
 
+
 // Exercício 3: Implemente uma função que muda a cor de fundo dos dias que possuem a classe "holiday".
 let btnHolidays = document.getElementById("btn-holiday");
 
@@ -61,6 +63,7 @@ btnHolidays.addEventListener("click", function () {
     element.style.backgroundColor = "white";
   });
 });
+
 
 // Exercício 4: Implemente uma função que crie dinamicamente um botão com o nome "Sexta-feira". Sua função deve receber como parâmetro a string "Sexta-feira".
 function buttonFridays() {
@@ -74,6 +77,7 @@ function buttonFridays() {
 
 buttonFridays();
 
+
 // Exercício 5: Implemente uma função que modifica o texto exibido nos dias que são Sexta-feira.
 let btnFridays = document.getElementById("btn-friday");
 
@@ -84,6 +88,7 @@ btnFridays.addEventListener("click", function () {
     element.innerText = "Sextou :)";
   });
 });
+
 
 // Exercício 6: Implemente duas funções que criem um efeito de "zoom".
 function zoomIn(event) {
@@ -100,3 +105,15 @@ liDays.forEach((element) => {
   element.addEventListener("mouseover", zoomIn);
   element.addEventListener("mouseout", zoomOut);
 });
+
+
+// Exercício 7: Implemente uma função que adicione uma tarefa personalizada ao calendário.
+function addTask(task) {
+  let newTask = document.createElement("span");
+  let myTasks = document.querySelector(".my-tasks");
+
+  myTasks.appendChild(newTask);
+  newTask.innerText = task;
+}
+
+addTask("Projeto Arte com Pixels");
