@@ -118,6 +118,7 @@ function addTask(task) {
 
 addTask("Projeto Arte com Pixels");
 
+
 // Exercício 8: Implemente uma função que adicione uma legenda com cor para a tarefa.
 function addTaskColor(color) {
   let newColor = document.createElement("div");
@@ -129,3 +130,14 @@ function addTaskColor(color) {
 }
 
 addTaskColor("purple");
+
+
+// Exercício 9: Implemente uma função que selecione uma tarefa.
+let selectTaskColor = document.querySelector(".task");
+
+function selected() {
+  selectTaskColor.classList.toggle("task-selected");
+  selectTaskColor.classList.toggle("task");
+}
+
+selectTaskColor.addEventListener("click", selected)
