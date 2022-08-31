@@ -60,7 +60,13 @@ btnHolidays.addEventListener("click", function () {
   let colorHolidays = document.querySelectorAll(".holiday");
   
   colorHolidays.forEach((element) => {
-    element.style.backgroundColor = "white";
+    let verifyColor = element.style.backgroundColor;
+    
+    if (verifyColor !== "white") {
+      element.style.backgroundColor = "white";
+    } else {
+      element.style.backgroundColor = "rgb(238, 238, 238)";
+    }
   });
 });
 
@@ -80,13 +86,18 @@ buttonFridays();
 
 // Exercício 5: Implemente uma função que modifica o texto exibido nos dias que são Sexta-feira.
 let btnFridays = document.getElementById("btn-friday");
+let fridayDays = [4, 11, 18, 25];
 
 btnFridays.addEventListener("click", function () {
   let textFridays = document.querySelectorAll(".friday");
   
-  textFridays.forEach((element) => {
-    element.innerText = "Sextou :)";
-  });
+  for (let i = 0; i < textFridays.length; i += 1) {
+    if (textFridays[i].innerHTML !== "Sextou :)") {
+      textFridays[i].innerHTML = "Sextou :)"
+    } else {
+      textFridays[i].innerHTML = fridayDays[i];
+    }
+  }
 });
 
 
@@ -150,13 +161,13 @@ function setDayColor() {
   let taskDiv = document.querySelector(".task");
   let taskColor = taskDiv.style.backgroundColor;
 
-  days.addEventListener("click", function(event) {
+  days.addEventListener("click", function (event) {
     let verifyColor = event.target.style.color;
 
     if (selectedTask.length > 0 && verifyColor !== taskColor) {
       event.target.style.color = taskColor;
-    } else if (verifyColor === taskColor) {
-      event.target.style.color = "rgb(119,119,119)";
+    } else {
+      event.target.style.color = "rgb(119, 119, 119)";
     }
   });
 }
