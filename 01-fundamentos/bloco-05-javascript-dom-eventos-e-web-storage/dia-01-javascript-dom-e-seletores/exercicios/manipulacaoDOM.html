@@ -68,11 +68,9 @@
         // 6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
         let arrParagraph = document.getElementsByTagName("p");
 
-        for (let i = 0; i < arrParagraph.length; i += 1) {
-            arrParagraph[i];
+        for (let i of arrParagraph) {
+          console.log(i);
         }
-
-        console.log(arrParagraph);
     </script>
   </body>
 </html>
