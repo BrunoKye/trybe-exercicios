@@ -6,12 +6,12 @@ let btnFtfamily = document.getElementById('btn-ftfamily');
 
 function changeBgColor() {
     let textBgColor = document.getElementById('input-bgcolor');
-    let bgColor = document.querySelector('body');
+    let applyBgColor = document.querySelector('body');
 
     localStorage.setItem('bgcolor', textBgColor.value);
     textBgColor.value = '';
 
-    bgColor.style.backgroundColor = localStorage.getItem('bgcolor');
+    applyBgColor.style.backgroundColor = localStorage.getItem('bgcolor');
 }
 
 btnBgcolor.addEventListener('click', changeBgColor);
@@ -19,12 +19,38 @@ btnBgcolor.addEventListener('click', changeBgColor);
 
 function changeColor() {
     let textColor = document.getElementById('input-color');
-    let color = document.querySelector('#lorem-text');
+    let applyColor = document.querySelector('#lorem-text');
 
     localStorage.setItem('color', textColor.value);
     textColor.value = '';
 
-    color.style.color = localStorage.getItem('color');
+    applyColor.style.color = localStorage.getItem('color');
 }
 
 btnColor.addEventListener('click', changeColor);
+
+
+function changeSize() {
+    let textSize = document.getElementById('input-size');
+    let applySize = document.querySelector('#lorem-text');
+
+    localStorage.setItem('size', textSize.value);
+    textSize.value = '';
+
+    applySize.style.fontSize = localStorage.getItem('size');
+}
+
+btnSize.addEventListener('click', changeSize);
+
+
+function changeLnheight() {
+    let textLnheight = document.getElementById('input-lnheight');
+    let applyLnheight = document.querySelector('#lorem-text');
+
+    localStorage.setItem('lnheight', textLnheight.value);
+    textLnheight.value = '';
+
+    applyLnheight.style.lineHeight = localStorage.getItem('lnheight');
+}
+
+btnLnheight.addEventListener('click', changeLnheight);
