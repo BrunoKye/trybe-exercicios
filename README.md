@@ -33,11 +33,11 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 4.4: JavaScript - Objetos e funções
 - [x] 4.5: [Projeto - Playground Functions]()
 
-##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage]()
+##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/brunokye/trybe-exercicios/tree/main/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage)
 - [x] 5.1: JavaScript - DOM e seletores
-- [ ] 5.2: JavaScript - Trabalhando com elementos
-- [ ] 5.3: JavaScript - Eventos
-- [ ] 5.4: JavaScript - Web Storage
+- [x] 5.2: JavaScript - Trabalhando com elementos
+- [x] 5.3: JavaScript - Eventos
+- [x] 5.4: JavaScript - Web Storage
 - [ ] 5.5: Fundamentos - JavaScript - Projetos
 - [ ] 5.6: [Projeto - Lista de tarefas]()
 - [ ] 5.7: [Projeto - Meme Generator]()
