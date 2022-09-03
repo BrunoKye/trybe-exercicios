@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 20px -10px;
+}
+
+div {
+  margin: 20px;
+}
+
+input {
+  padding: 5px;
+}
+
+.input-position {
+  display: inline-block;
+}
+
+#input-center {
+  text-align: center;
+}
+
+#btn-lastsession {
+  margin-top: -10px;
+}
+
+p {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  text-indent: 25px;
+}
