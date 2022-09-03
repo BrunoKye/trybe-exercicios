@@ -24,6 +24,10 @@ input {
   text-align: center;
 }
 
+#btn-lastsession {
+  margin-top: -10px;
+}
+
 p {
   width: 80%;
   margin: auto;

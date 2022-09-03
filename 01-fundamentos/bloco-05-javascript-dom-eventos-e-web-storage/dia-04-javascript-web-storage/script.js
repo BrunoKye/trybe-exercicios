@@ -3,6 +3,7 @@ let btnColor = document.getElementById('btn-color');
 let btnSize = document.getElementById('btn-size');
 let btnLnheight = document.getElementById('btn-lnheight');
 let btnFtfamily = document.getElementById('btn-ftfamily');
+let btnLastsession = document.getElementById('btn-lastsession');
 
 function changeBgColor() {
     let textBgColor = document.getElementById('input-bgcolor');
@@ -67,3 +68,17 @@ function changeFtfamily() {
 }
 
 btnFtfamily.addEventListener('click', changeFtfamily);
+
+
+function applyLastSession() {
+    let applyBgColor = document.querySelector('body');
+    let applyLastConfig = document.querySelector('#lorem-text');
+
+    applyBgColor.style.backgroundColor = localStorage.getItem('bgcolor');
+    applyLastConfig.style.color = localStorage.getItem('color');
+    applyLastConfig.style.fontSize = localStorage.getItem('size');
+    applyLastConfig.style.lineHeight = localStorage.getItem('lnheight');
+    applyLastConfig.style.fontFamily = localStorage.getItem('ftfamily');
+}
+
+btnLastsession.addEventListener('click', applyLastSession);
