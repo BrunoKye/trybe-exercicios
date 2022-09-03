@@ -54,3 +54,16 @@ function changeLnheight() {
 }
 
 btnLnheight.addEventListener('click', changeLnheight);
+
+
+function changeFtfamily() {
+    let textFtfamily = document.getElementById('input-ftfamily');
+    let applyFtfamily = document.querySelector('#lorem-text');
+
+    localStorage.setItem('ftfamily', textFtfamily.value);
+    textFtfamily.value = '';
+
+    applyFtfamily.style.fontFamily = localStorage.getItem('ftfamily');
+}
+
+btnFtfamily.addEventListener('click', changeFtfamily);
