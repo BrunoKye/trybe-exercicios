@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,38 +8,51 @@
     <link rel="stylesheet" href="style.css">
     <title>Formulário - Viagem</title>
 </head>
+
 <body>
     <h1>Concorra a uma Viagem!!</h1>
-    <div>
-        <form action="" method="POST">
+
+    <form action="" method="GET" id="tripForm">
+        <div>
             <label for="input-name">Nome:</label>
-            <input type="text" name="full-name" minlength="10" maxlength="40" id="input-name">
+            <input type="text" name="full-name" minlength="10" maxlength="40" id="input-name" required autofocus>
             <br><br>
+
             <label for="input-email">Email:</label>
-            <input type="email" name="email" minlength="10" maxlength="50" id="input-email">
+            <input type="email" name="email" minlength="10" maxlength="50" id="input-email" required>
             <br><br>
+
             <fieldset>
                 <legend>Destino Preferido</legend>
-                <label for="prefered-destination1"><input type="radio" name="radio" id="prefered-destination1"> Cidade</label>
-                <label for="prefered-destination2"><input type="radio" name="radio" id="prefered-destination2"> Campo</label>
-                <label for="prefered-destination3"><input type="radio" name="radio" id="prefered-destination3"> Praia</label>
-                <label for="prefered-destination4"><input type="radio" name="radio" id="prefered-destination4"> Montanhas</label>
+                <label for="prefered-destination1"><input type="radio" name="radio" id="prefered-destination1">Cidade</label>
+                <label for="prefered-destination2"><input type="radio" name="radio" id="prefered-destination2">Campo</label>
+                <label for="prefered-destination3"><input type="radio" name="radio" id="prefered-destination3">Praia</label>
+                <label for="prefered-destination4"><input type="radio" name="radio" id="prefered-destination4">Montanhas</label>
             </fieldset>
             <br>
+
             <label for="">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
             <br>
-            <textarea name="text-area" id="input-text" cols="30" rows="10" maxlength="500"></textarea>
+            <textarea name="text-area" id="input-text" cols="30" rows="10" maxlength="500" required></textarea>
             <br><br>
+
             <label for="input-date">Data:</label>
-            <input type="date" name="date" id="input-date">
+            <input type="date" name="date" id="input-date" required>
             <br><br>
-            <label for="">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
-            </label>
+
+            <label for="">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
             <input type="checkbox" name="checkbox" id="input-checkbox1">
             <br>
-            <label for="">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
-            <input type="checkbox" name="checkbox" id="input-checkbox2">
-        </form>
-    </div>
+
+            <label for="">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos
+                futuros.</label>
+            <input type="checkbox" name="checkbox" id="input-checkbox2" required>
+            <br><br>
+        </div>
+
+        <button type="submit" name="submit" id="button-submit">Enviar</button>
+    </form>
+
+    <script src="script.js"></script>
 </body>
 </html>
