@@ -1,0 +1,8 @@
+#form-box {
+    border: 3px solid black;
+    padding: 10px;
+}
+
+#input-text, fieldset {
+    width: 60%;
+}
