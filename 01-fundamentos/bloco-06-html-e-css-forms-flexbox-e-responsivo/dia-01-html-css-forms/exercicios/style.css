@@ -1,8 +1,16 @@
+div {
+    width: 700px;
+}
+
 #form-box {
     border: 3px solid black;
     padding: 10px;
 }
 
-#input-text, fieldset {
-    width: 60%;
+fieldset {
+    width: 400px;
+}
+
+#input-text {
+    width: 423px;
 }
