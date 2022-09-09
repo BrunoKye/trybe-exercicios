@@ -18,7 +18,7 @@
     <form action="" method="GET" id="tripForm">
         <div class="container">
 
-            <div>
+            <div id="info-box">
                 <label for="input-name" class="form-label">Nome:</label>
                 <input type="text" name="full-name" minlength="10" maxlength="40" id="input-name" class="form-control" required autofocus>
     
@@ -26,7 +26,7 @@
                 <input type="email" name="email" minlength="10" maxlength="50" id="input-email" class="form-control" required>
             </div>
 
-            <div>
+            <div id="destination-box">
                 <h2 class="display-6">Destino Preferido</h2>
 
                 <div class="form-check">
@@ -46,33 +46,32 @@
                 </div>
             </div>
             
-            <div>
+            <div id="text-box">
                 <label for="input-text" class="form-label">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
                 <textarea name="text-area" id="input-text" maxlength="500" class="form-control" required></textarea>
             </div>
 
-            <div>
+            <div id="date-box">
                 <label for="input-date" class="form-label">Data:</label>
                 <input type="date" name="date" id="input-date" class="form-control" required>
             </div>
 
-            <div>
-                <label for="input-checkbox1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
-                <input type="checkbox" name="checkbox" id="input-checkbox1">
+            <div id="terms-box">
+                <div>
+                    <input type="checkbox" name="checkbox" id="input-checkbox1">
+                    <label for="input-checkbox1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="checkbox" id="input-checkbox2" required>
+                    <label for="input-checkbox2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+                </div>
             </div>
 
-            <div>
-                <div>
-                    <label for="input-checkbox2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos
-                        futuros.</label>
-                    <input type="checkbox" name="checkbox" id="input-checkbox2" required>
-                </div>
+            <div id="buttons-box">
+                <button type="submit" name="submit" id="button-submit" class="btn btn-primary">Enviar</button>
     
-                <div>
-                    <button type="submit" name="submit" id="button-submit" class="btn btn-primary">Enviar</button>
-    
-                    <button type="reset" name="reset" id="button-reset" class="btn btn-secondary">Limpar</button>
-                </div>
+                <button type="reset" name="reset" id="button-reset" class="btn btn-secondary">Limpar</button>
             </div>
         </div>
     </form>
