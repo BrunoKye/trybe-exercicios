@@ -1,0 +1,15 @@
+#info-box {
+    margin-top: 20px;
+}
+
+#input-name, #input-checkbox1 {
+    margin-bottom: 10px;
+}
+
+#input-email, #destination-box, #text-box, #date-box, #terms-box {
+    margin-bottom: 20px;
+}
+
+#input-checkbox1, #input-checkbox2 {
+    margin-right: 5px;
+}

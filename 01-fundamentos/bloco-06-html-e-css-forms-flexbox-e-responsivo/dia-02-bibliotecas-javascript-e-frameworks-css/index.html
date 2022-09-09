@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário - Viagem</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="display-3 text-center">Concorra a uma Viagem!!</h1>
+    </div>
+
+    <form action="" method="GET" id="tripForm">
+        <div class="container">
+
+            <div id="info-box">
+                <label for="input-name" class="form-label">Nome:</label>
+                <input type="text" name="full-name" minlength="10" maxlength="40" id="input-name" class="form-control" required autofocus>
+    
+                <label for="input-email" class="form-label">Email:</label>
+                <input type="email" name="email" minlength="10" maxlength="50" id="input-email" class="form-control" required>
+            </div>
+
+            <div id="destination-box">
+                <h2 class="display-6">Destino Preferido</h2>
+
+                <div class="form-check">
+                    <label for="prefered-destination1" class="form-check-label"><input type="radio" name="radio" id="prefered-destination1" class="form-check-input">Cidade</label>
+                </div>
+
+                <div class="form-check">
+                    <label for="prefered-destination2" form-check-label><input type="radio" name="radio" id="prefered-destination2" class="form-check-input">Campo</label>
+                </div>
+
+                <div class="form-check">
+                    <label for="prefered-destination3" form-check-label><input type="radio" name="radio" id="prefered-destination3" class="form-check-input">Praia</label>
+                </div>
+
+                <div class="form-check">
+                    <label for="prefered-destination4" form-check-label><input type="radio" name="radio" id="prefered-destination4" class="form-check-input">Montanhas</label>
+                </div>
+            </div>
+            
+            <div id="text-box">
+                <label for="input-text" class="form-label">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
+                <textarea name="text-area" id="input-text" maxlength="500" class="form-control" required></textarea>
+            </div>
+
+            <div id="date-box">
+                <label for="input-date" class="form-label">Data:</label>
+                <input type="date" name="date" id="input-date" class="form-control" required>
+            </div>
+
+            <div id="terms-box">
+                <div>
+                    <input type="checkbox" name="checkbox" id="input-checkbox1">
+                    <label for="input-checkbox1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="checkbox" id="input-checkbox2" required>
+                    <label for="input-checkbox2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+                </div>
+            </div>
+
+            <div id="buttons-box">
+                <button type="submit" name="submit" id="button-submit" class="btn btn-primary">Enviar</button>
+    
+                <button type="reset" name="reset" id="button-reset" class="btn btn-secondary">Limpar</button>
+            </div>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
