@@ -17,6 +17,12 @@ header {
   width: 70px;
 }
 
+section p {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
 .gallery-img {
   width: 150px;
 }
