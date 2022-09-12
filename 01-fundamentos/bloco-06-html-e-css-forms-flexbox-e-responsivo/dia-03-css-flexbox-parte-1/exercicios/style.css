@@ -17,17 +17,67 @@ header {
   width: 70px;
 }
 
-section p {
+h1 {
+  font-size: 20px;
+}
+
+a {
+  color: rgb(173, 176, 169);
+}
+
+.section-text {
   display: flex;
   justify-content: center;
   margin-top: 10px;
+}
+
+.section-img {
+  display: flex;
+  justify-content: center;
+} 
+
+.img-config {
+  display: flex;
+  margin: 20px;
+  width: 600px;
+  gap: 10px;
+  text-align: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  filter: drop-shadow(3px 3px 1px rgb(207, 207, 207));
+}
+
+h4 {
+  color: rgb(84, 101, 121);
+  margin-bottom: 10px;
+}
+
+.img-box {
+  background-color: rgb(240, 241, 241);
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .gallery-img {
   width: 150px;
 }
 
+.hr-position {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+hr {
+  width: 200px;
+}
+
+footer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
 .social-img {
   width: 25px;
-  margin-left: 10px;
 }
