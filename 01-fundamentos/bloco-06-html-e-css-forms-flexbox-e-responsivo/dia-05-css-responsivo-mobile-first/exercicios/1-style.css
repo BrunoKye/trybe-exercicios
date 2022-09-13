@@ -68,3 +68,25 @@
         margin: 10px;
     }
 }
+
+@media screen and (min-width: 1300px) {
+    body {
+        background-color: cornsilk;
+        font-size: 30px;
+        margin: 30px;
+        max-width: 1400px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    figure {
+        display: inline-block;
+        width: 45%;
+    }
+}
