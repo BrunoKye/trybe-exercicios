@@ -46,3 +46,25 @@
   figcaption {
     font-size: .8em;
   }
+
+@media screen and (min-width: 800px) {
+    body {
+        background-color: aliceblue;
+        font-size: 25px;
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    figure {
+        display: inline-block;
+        width: 45%;
+        margin: 10px;
+    }
+}
