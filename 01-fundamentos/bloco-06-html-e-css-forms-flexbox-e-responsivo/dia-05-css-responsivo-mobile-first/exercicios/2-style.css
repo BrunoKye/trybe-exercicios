@@ -8,39 +8,49 @@ html {
 
 body {
   font-family: monospace;
+  margin: 15px;
+}
+
+#main-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  text-indent: 20px;
 }
 
 @media screen and (max-width: 375px) {
   body {
     background-color: azure;
-    margin: 15px;
   }
 
   #main-title {
-    text-align: center;
     font-size: 25px;
-    font-weight: bold;
   }
 
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style: none;
-    padding: 0;
+  nav {
+    font-size: 15px;
   }
-
+  
   h2 {
     font-size: 18px;
   }
 
   h1 {
-    text-align: center;
     font-size: 20px;
-  }
-
-  p {
-    text-align: justify;
-    text-indent: 20px;
   }
 }
