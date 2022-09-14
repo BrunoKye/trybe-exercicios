@@ -54,3 +54,26 @@ p {
     font-size: 20px;
   }
 }
+
+@media screen and (min-width: 376px) {
+  body {
+    background-color: lavender;
+    font-size: 20px;
+  }
+
+  #main-title {
+    font-size: 35px;
+  }
+
+  nav {
+    font-size: 22px;
+  }
+  
+  h2 {
+    font-size: 25px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+}
