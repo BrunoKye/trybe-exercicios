@@ -77,3 +77,26 @@ p {
     font-size: 30px;
   }
 }
+
+@media screen and (min-width: 821px) {
+  body {
+    background-color:mintcream;
+    font-size: 25px;
+  }
+
+  #main-title {
+    font-size: 45px;
+  }
+
+  nav {
+    font-size: 30px;
+  }
+  
+  h2 {
+    font-size: 35px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}
