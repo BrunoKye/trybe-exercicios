@@ -1,4 +1,4 @@
-let calculateFactorial = n => {
+const calculateFactorial = n => {
     let result = 1;
 
     if (n > 1) {
