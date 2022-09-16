@@ -44,9 +44,7 @@ const order = {
 
    console.log(`Olá ${deliveryPerson}, entrega para ${client}, Telefone: ${phoneNumber}, R. ${street}, Nº: ${homeNumber}, AP: ${apartment}`);
   };
-  
-  customerInfo(order);
-  
+    
   const orderModifier = (order) => {
     const client = order.name = 'Luiz Silva'
     const payment = order.payment = 50;
@@ -54,5 +52,5 @@ const order = {
     console.log(`Olá ${client}, o total do seu pedido de Marguerita, Pepperoni e Coca-Cola Zero é R$ ${payment},00.`);
   };
   
+  customerInfo(order);
   orderModifier(order);
-  
