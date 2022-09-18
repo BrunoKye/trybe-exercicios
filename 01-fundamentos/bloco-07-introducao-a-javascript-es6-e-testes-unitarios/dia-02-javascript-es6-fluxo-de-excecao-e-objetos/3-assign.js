@@ -22,7 +22,7 @@ const newKey = (obj, key, value) => obj[key] = value;
 const objectKeys = obj => Object.keys(obj);
 const objectLength = obj => Object.keys(obj).length;
 const objectValues = obj => Object.values(obj);
-const allLessons = Object.assign({}, {lesson1, lesson2, lesson3})
+const allLessons = Object.assign({}, {lesson1, lesson2, lesson3});
 const getValueByNumber = (obj, number) => Object.values(obj)[number];
 
 function sumStudents() {
@@ -47,6 +47,19 @@ function verifyPair(obj, key, value) {
     return verify;
 }
 
+function calculateMathStudents(obj) {
+    let result = 0;
+    const newArray = Object.keys(allLessons)
+
+    for (let i = 0; i < newArray.length; i += 1) {
+        if (obj[newArray[i]].materia === 'Matemática') {
+            result += obj[newArray[i]].numeroEstudantes;
+        }
+    }
+
+    return result;
+}  
+
 newKey(lesson2, 'turno', 'noite');
 objectKeys(lesson1);
 objectLength(lesson2);
@@ -55,3 +68,4 @@ allLessons;
 sumStudents();
 getValueByNumber(lesson1, 0);
 verifyPair(lesson2, 'turno', 'noite');
+calculateMathStudents(allLessons);
