@@ -46,16 +46,16 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 ##### Bloco 6: [HTML & CSS: Forms, Flexbox e Responsivo](https://github.com/brunokye/trybe-exercicios/tree/main/01-fundamentos/bloco-06-html-e-css-forms-flexbox-e-responsivo)
 - [x] 6.1: HTML & CSS - Forms
-- [ ] 6.2: Bibliotecas JavaScript e Frameworks CSS
-- [ ] 6.3: Introdução - CSS Flexbox
-- [ ] 6.3: CSS Flexbox - Part 1
-- [ ] 6.4: CSS Flexbox - Part 2
-- [ ] 6.5: CSS Responsivo - Mobile First 
-- [ ] 6.6: [Projeto - Trybewarts]()
+- [x] 6.2: Bibliotecas JavaScript e Frameworks CSS
+- [x] 6.3: Introdução - CSS Flexbox
+- [x] 6.3: CSS Flexbox - Part 1
+- [x] 6.4: CSS Flexbox - Part 2
+- [x] 6.5: CSS Responsivo - Mobile First 
+- [x] 6.6: [Projeto - Trybewarts]()
 
 ##### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários]()
-- [ ] 7.1: JavaScript ES6 - let, const, arrow functions e template literals
-- [ ] 7.2: JavaScript ES6 - Fluxo de exceção e Objetos
+- [x] 7.1: JavaScript ES6 - let, const, arrow functions e template literals
+- [x] 7.2: JavaScript ES6 - Fluxo de exceção e Objetos
 - [ ] 7.3: Primeiros passos em Jest
 - [ ] 7.4: [Projeto - JavaScript Testes Unitários]()
 
