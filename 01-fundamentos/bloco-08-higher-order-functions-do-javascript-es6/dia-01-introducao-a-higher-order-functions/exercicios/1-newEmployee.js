@@ -1,5 +1,6 @@
 const registerEmployee = (name) => {
-    const newName = name.toLowerCase().replace(/ /g, '');
+    // regex - https://stackoverflow.com/questions/5963182/how-to-remove-spaces-from-a-string-using-javascript
+    const newName = name.toLowerCase().replace(/ /g, '_');
     const email = `${name} | Email: ${newName}@trybe.com`;
 
     return email;
