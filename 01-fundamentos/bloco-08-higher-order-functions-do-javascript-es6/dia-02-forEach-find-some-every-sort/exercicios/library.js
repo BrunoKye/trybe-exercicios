@@ -75,7 +75,12 @@ function smallerName() {
     });
 
     return nameBook;
-  }
+}
+
+function getNamedBook() {
+   return books.find((element) => element.name.length === 26);
+}
 
 // console.log(authorBornIn(1947));
-console.log(smallerName());
+// console.log(smallerName());
+console.log(getNamedBook());
