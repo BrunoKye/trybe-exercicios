@@ -85,7 +85,12 @@ function booksOrderedByReleaseYearDesc() {
     return books.sort((a, b) => a.releaseYear - b.releaseYear);
 }
 
+function everyoneWasBornOnSecXX() {
+    return books.every((element) => element.birthYear > 1900 && element.birthYear < 2000);
+}
+
 // console.log(authorBornIn(1947));
 // console.log(smallerName());
 // console.log(getNamedBook());
-console.log(booksOrderedByReleaseYearDesc());
+// console.log(booksOrderedByReleaseYearDesc());
+console.log(everyoneWasBornOnSecXX());
