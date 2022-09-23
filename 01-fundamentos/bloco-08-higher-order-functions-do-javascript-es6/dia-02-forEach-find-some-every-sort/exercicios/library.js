@@ -65,4 +65,17 @@ function authorBornIn(year) {
     return books.find((element) => element.author.birthYear === year).author.name;
 }
 
-console.log(authorBornIn(1947));
+function smallerName() {
+    let nameBook = books[0].name;
+
+    books.forEach((element) => {
+        if (element.name.length < nameBook.length) {
+            nameBook = element.name;
+        }
+    });
+
+    return nameBook;
+  }
+
+// console.log(authorBornIn(1947));
+console.log(smallerName());
