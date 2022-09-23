@@ -81,6 +81,11 @@ function getNamedBook() {
    return books.find((element) => element.name.length === 26);
 }
 
+function booksOrderedByReleaseYearDesc() {
+    return books.sort((a, b) => a.releaseYear - b.releaseYear);
+}
+
 // console.log(authorBornIn(1947));
 // console.log(smallerName());
-console.log(getNamedBook());
+// console.log(getNamedBook());
+console.log(booksOrderedByReleaseYearDesc());
