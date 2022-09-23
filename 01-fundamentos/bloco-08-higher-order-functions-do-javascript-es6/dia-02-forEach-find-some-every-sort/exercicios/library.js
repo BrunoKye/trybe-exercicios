@@ -89,8 +89,13 @@ function everyoneWasBornOnSecXX() {
     return books.every((element) => element.birthYear > 1900 && element.birthYear < 2000);
 }
 
+function someBookWasReleaseOnThe80s() {
+    return books.some((element) => element.releaseYear > 1980 && element.releaseYear < 1989);
+}
+
 // console.log(authorBornIn(1947));
 // console.log(smallerName());
 // console.log(getNamedBook());
 // console.log(booksOrderedByReleaseYearDesc());
-console.log(everyoneWasBornOnSecXX());
+// console.log(everyoneWasBornOnSecXX());
+console.log(someBookWasReleaseOnThe80s());
