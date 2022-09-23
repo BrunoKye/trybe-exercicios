@@ -93,9 +93,18 @@ function someBookWasReleaseOnThe80s() {
     return books.some((element) => element.releaseYear > 1980 && element.releaseYear < 1989);
 }
 
+function authorUnique() {
+    return books.every((element) => element.birthYear)
+}
+
+function authorUnique() {
+    return !books.every((i) => (books.some((j) => i.author.birthYear === j.author.birthYear && i.author.name !== j.author.name)));
+}
+
 // console.log(authorBornIn(1947));
 // console.log(smallerName());
 // console.log(getNamedBook());
 // console.log(booksOrderedByReleaseYearDesc());
 // console.log(everyoneWasBornOnSecXX());
-console.log(someBookWasReleaseOnThe80s());
+// console.log(someBookWasReleaseOnThe80s());
+console.log(authorUnique());
