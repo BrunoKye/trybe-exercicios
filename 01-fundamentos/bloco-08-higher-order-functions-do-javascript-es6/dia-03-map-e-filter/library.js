@@ -85,14 +85,12 @@ function fantasyOrScienceFictionAuthors() {
     return books.filter((element) => element.genre === 'Ficção Científica' || element.genre === 'Fantasia').map((element) => element.author.name).sort();
 }
 
-const expectedResult = [
-    'O Senhor dos Anéis',
-    'Fundação',
-    'O Chamado de Cthulhu',
-  ];
-  
 function oldBooks(year) {
     return books.filter((element) => year - element.releaseYear > 60).map((element) => element.name);
+}
+
+function authorWith3DotsOnName() {
+    return books.find((element) => (element.author.name.split(' ').filter((element) => element.endsWith('.')).length === 3)).name;
 }
 
 // console.log(formatedBookNames());
@@ -100,4 +98,5 @@ function oldBooks(year) {
 // console.log(fantasyOrScienceFiction());
 // console.log(oldBooksOrdered(2022));
 // console.log(fantasyOrScienceFictionAuthors());
-console.log(oldBooks(2022));
+// console.log(oldBooks(2022));
+console.log(authorWith3DotsOnName());
