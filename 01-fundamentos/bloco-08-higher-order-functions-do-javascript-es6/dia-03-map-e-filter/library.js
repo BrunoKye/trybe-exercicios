@@ -73,5 +73,10 @@ function nameAndAge() {
     return newArray.sort((a, b) => a.age - b.age);
 }
 
+function fantasyOrScienceFiction() {
+    return books.filter((element) => element.genre === 'Ficção Científica' || element.genre === 'Fantasia');
+}
+
 // console.log(formatedBookNames());
-console.log(nameAndAge());
+// console.log(nameAndAge());
+console.log(fantasyOrScienceFiction());
