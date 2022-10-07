@@ -1,3 +1,5 @@
+const { run } = require("jest");
+
 const pokemons = [
     {
       name: 'Bulbasaur',
@@ -25,7 +27,6 @@ const pokemons = [
       }
   
       const { name, type, ability } = foundPokemon;
-  
       const messageFromProfOak = `Olá, seu pokémon é o ${name}, o tipo dele é ${type} e a habilidade principal dele é ${ability}`;
   
       callback(null, messageFromProfOak);
@@ -38,3 +39,31 @@ const pokemons = [
   };
   
   getPokemonDetails('Charmander', handlePokemonSearch);
+
+describe('A função getPokemonDetails', () => {
+  it('retorna erro quando procuramos um pokémon que não existe no banco de dados', (runTest) => {
+    const expected = new Error('Não temos esse pokémon para você :(');
+
+    getPokemonDetails('Riolu', (error, message) => {
+      try {
+        expect(error).toEqual(expected);
+        runTest();
+      } catch (error) {
+        runTest(error);
+      }
+    });
+  });
+
+  it('retorna um pokémon que existe no banco de dados', (runTest) => {
+    const expected = `Olá, seu pokémon é o Squirtle, o tipo dele é Água e a habilidade principal dele é Jato de Água`;
+
+    getPokemonDetails('Squirtle', (error, message) => {
+      try {
+        expect(message).toBe(expected);
+        runTest();
+      } catch (error) {
+        runTest(error);
+      }
+    });
+  });
+});
