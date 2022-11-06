@@ -4,7 +4,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 
 >A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho. O programa conta com mais de 1.500 horas de aulas online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
+## Fundamentos do Desenvolvimento Web :heavy_check_mark:
 
 ##### Bloco 1: [Introdução - Unix e Shell](https://github.com/brunokye/trybe-exercicios/tree/main/01-fundamentos/bloco-01-unix-e-bash)
 - [x] 1.1: Fundamentos do Desenvolvimento Web
@@ -23,7 +23,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 3.2: HTML & CSS - Primeiros passos em CSS
 - [x] 3.3: HTML & CSS - Seletores e posicionamento
 - [x] 3.4: HTML Semântico
-- [x] 3.5: [Projeto - Lessons Learned]()
+- [x] 3.5: [Projeto - Lessons Learned](https://github.com/brunokye/projeto-01-lessons-learned)
 
 ##### Bloco 4: [Introdução à JavaScript e Lógica de Programação](https://github.com/brunokye/trybe-exercicios/tree/main/01-fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao)
 - [x] 4.1: Introdução - JavaScript
@@ -31,14 +31,14 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 4.2: JavaScript - Array e loop For
 - [x] 4.3: JavaScript - Lógica de Programação e Algoritmos
 - [x] 4.4: JavaScript - Objetos e funções
-- [x] 4.5: [Projeto - Playground Functions]()
+- [x] 4.5: [Projeto - Playground Functions](https://github.com/brunokye/projeto-02-playground-functions)
 
 ##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/brunokye/trybe-exercicios/tree/main/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage)
 - [x] 5.1: JavaScript - DOM e seletores
 - [x] 5.2: JavaScript - Trabalhando com elementos
 - [x] 5.3: JavaScript - Eventos
 - [x] 5.4: JavaScript - Web Storage
-- [x] 5.5: [Projeto - Arte com Pixels]()
+- [x] 5.5: [Projeto - Pixel Art](https://github.com/brunokye/projeto-03-pixel-art)
 - [ ] 5.6: [Projeto - Lista de tarefas]()
 - [ ] 5.7: [Projeto - Meme Generator]()
 - [ ] 5.7: [Projeto - Adivinhe a Cor]()
@@ -51,45 +51,45 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 6.3: CSS Flexbox - Part 1
 - [x] 6.4: CSS Flexbox - Part 2
 - [x] 6.5: CSS Responsivo - Mobile First 
-- [x] 6.6: [Projeto - Trybewarts]()
+- [x] 6.6: [Projeto - Trybewarts](https://github.com/brunokye/projeto-04-trybewarts)
 
-##### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários]()
+##### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/brunokye/trybe-exercicios/tree/main/01-fundamentos/bloco-07-introducao-a-javascript-es6-e-testes-unitarios)
 - [x] 7.1: JavaScript ES6 - let, const, arrow functions e template literals
 - [x] 7.2: JavaScript ES6 - Fluxo de exceção e Objetos
 - [x] 7.3: Primeiros passos em Jest
-- [x] 7.4: [Projeto - JavaScript Testes Unitários]()
+- [x] 7.4: [Projeto - JavaScript Unit Tests](https://github.com/brunokye/projeto-05-unit-tests)
 
-##### Bloco 8: [Higher Order Functions do JavaScript ES6]()
+##### Bloco 8: [Higher Order Functions do JavaScript ES6](https://github.com/brunokye/trybe-exercicios/tree/main/01-fundamentos/bloco-08-higher-order-functions-do-javascript-es6)
 - [x] 8.1: JavaScript ES6 - Introdução a Higher Order Functions
 - [x] 8.2: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [x] 8.3: JavaScript ES6 - Higher Order Functions - map e filter
 - [x] 8.4: JavaScript ES6 - Higher Order Functions - reduce
 - [x] 8.5: JavaScript ES6 - spread operator, rest parameter, destructuring e mais
-- [ ] 8.6: [Projeto - Zoo functions]()
+- [x] 8.6: [Projeto - Zoo functions](https://github.com/brunokye/projeto-06-zoo-functions)
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
-##### Bloco 9: [JavaScript e Testes Assíncronos]()
-- [ ] 9.1: Introdução - Front-end
-- [ ] 9.1: JavaScript Assíncrono e Callbacks
-- [ ] 9.2: JavaScript Assíncrono - Fetch API e async/await
-- [ ] 9.3: Jest - Testes Assíncronos
-- [ ] 9.4: [Projeto - Carrinho de Compras]()
+##### Bloco 9: [JavaScript e Testes Assíncronos](https://github.com/brunokye/trybe-exercicios/tree/main/02-front-end/secao-01-javascript-assincrono)
+- [x] 9.1: Introdução - Front-end
+- [x] 9.1: JavaScript Assíncrono e Callbacks
+- [x] 9.2: JavaScript Assíncrono - Fetch API e async/await
+- [x] 9.3: Jest - Testes Assíncronos
+- [x] 9.4: [Projeto - Shopping Cart](https://github.com/brunokye/projeto-07-shopping-cart)
 
-##### Bloco 10: [Introdução à React]()
-- [ ] 10.1: Introdução - React
-- [ ] 10.1: 'Hello, world!' no React!
-- [ ] 10.2: Componentes React
-- [ ] 10.3: [Projeto - Sistema Solar]()
+##### Bloco 10: [Introdução à React](https://github.com/brunokye/trybe-exercicios/tree/main/02-front-end/secao-02-introducao-ao-react)
+- [x] 10.1: Introdução - React
+- [x] 10.1: 'Hello, world!' no React!
+- [x] 10.2: Componentes React
+- [x] 10.3: [Projeto - Solar System](https://github.com/brunokye/projeto-08-solar-system)
 
-##### Bloco 11: [Componentes com Estados, Eventos e Formulários com React]()
-- [ ] 11.1: Components com estado e eventos
-- [ ] 11.2: Formulários no React
-- [ ] 11.3: [Projeto - Tryunfo]()
+##### Bloco 11: [Componentes com Estados, Eventos e Formulários com React](https://github.com/brunokye/trybe-exercicios/tree/main/02-front-end/secao-03-estado-eventos-e-formularios-com-react)
+- [x] 11.1: Components com estado e eventos
+- [x] 11.2: Formulários no React
+- [x] 11.3: [Projeto - Tryunfo]()
 
-##### Bloco 12: [Ciclo de Vida de Componentes e React Router]()
-- [ ] 12.1: Ciclo de vida de componentes
-- [ ] 12.2: React Router
+##### Bloco 12: [Ciclo de Vida de Componentes e React Router](https://github.com/brunokye/trybe-exercicios/tree/main/02-front-end/secao-04-ciclo-de-vida-e-react-router)
+- [x] 12.1: Ciclo de vida de componentes
+- [x] 12.2: React Router
 - [ ] 12.3: [Projeto - TrybeTUnes]()
 
 ##### Bloco 13: [Metodologias Ágeis]()
