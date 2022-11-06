@@ -1,0 +1,12 @@
+.pokemon-details {
+  text-align: center;
+}
+
+.pokemon-location {
+  display: flex;
+  justify-content: center;
+}
+
+.pokemon-map {
+  margin: -15px 25px;
+}
