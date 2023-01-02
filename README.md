@@ -85,29 +85,29 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 ##### Seção 3: [Componentes com Estados, Eventos e Formulários com React](https://github.com/brunokye/trybe-exercicios/tree/main/02-front-end/secao-03-estado-eventos-e-formularios-com-react)
 - [x] 3.1: Components com estado e eventos
 - [x] 3.2: Formulários no React
-- [x] 3.3: [Projeto - Tryunfo]()
+- [x] 3.3: [Projeto - Tryunfo](https://github.com/brunokye/projeto-09-tryunfo)
 
 ##### Seção 4: [Ciclo de Vida de Componentes e React Router](https://github.com/brunokye/trybe-exercicios/tree/main/02-front-end/secao-04-ciclo-de-vida-e-react-router)
 - [x] 4.1: Ciclo de vida de componentes
 - [x] 4.2: React Router
-- [ ] 4.3: [Projeto - TrybeTUnes]()
+- [x] 4.3: [Projeto - TrybeTunes](https://github.com/brunokye/projeto-10-trybetunes)
 
 ##### Seção 5: [Metodologias Ágeis]()
-- [ ] 5.1: Metodologias Ágeis
-- [ ] 5.2: [Projeto - Frontend Online Store]()
+- [x] 5.1: Metodologias Ágeis
+- [x] 5.2: [Projeto - Frontend Online Store](https://github.com/brunokye/projeto-11-frontend-online-store)
 
 ##### Seção 6: [Testes Automatizados com React Testing Library]()
-- [ ] 6.1: RTL - Primeiros passos
-- [ ] 6.2: RTL - Mocks e Inputs
-- [ ] 6.3: RTL - Testando React Router
-- [ ] 6.4: [Projeto - Testes em React]()
+- [x] 6.1: RTL - Primeiros passos
+- [x] 6.2: RTL - Mocks e Inputs
+- [x] 6.3: RTL - Testando React Router
+- [x] 6.4: [Projeto - Testes em React](https://github.com/brunokye/projeto-12-react-testing-library)
 
 ##### Seção 7: [Gerenciamento de Estado com Redux]()
-- [ ] 7.1: Introdução ao Redux - O estado global da aplicação
-- [ ] 7.2: Usando o Redux no React
-- [ ] 7.3: Usando o Redux no React - Prática
-- [ ] 7.4: Usando o Redux no React - Actions Assíncronas
-- [ ] 7.5: Testes em React-Redux
+- [x] 7.1: Introdução ao Redux - O estado global da aplicação
+- [x] 7.2: Usando o Redux no React
+- [x] 7.3: Usando o Redux no React - Prática
+- [x] 7.4: Usando o Redux no React - Actions Assíncronas
+- [x] 7.5: Testes em React-Redux
 - [ ] 7.6: [Projeto - Trybe Wallet]()
 
 ##### Seção 8: [Projeto Jogo de Trivia]()
