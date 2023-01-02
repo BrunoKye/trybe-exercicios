@@ -92,17 +92,17 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 4.2: React Router
 - [x] 4.3: [Projeto - TrybeTunes](https://github.com/brunokye/projeto-10-trybetunes)
 
-##### Seção 5: [Metodologias Ágeis]()
+##### Seção 5: [Metodologias Ágeis](https://github.com/brunokye/projeto-11-frontend-online-store)
 - [x] 5.1: Metodologias Ágeis
 - [x] 5.2: [Projeto - Frontend Online Store](https://github.com/brunokye/projeto-11-frontend-online-store)
 
-##### Seção 6: [Testes Automatizados com React Testing Library]()
+##### Seção 6: [Testes Automatizados com React Testing Library](https://github.com/brunokye/trybe-exercicios/tree/main/02-front-end/secao-06-testes-automatizados-com-react-testing-library)
 - [x] 6.1: RTL - Primeiros passos
 - [x] 6.2: RTL - Mocks e Inputs
 - [x] 6.3: RTL - Testando React Router
 - [x] 6.4: [Projeto - Testes em React](https://github.com/brunokye/projeto-12-react-testing-library)
 
-##### Seção 7: [Gerenciamento de Estado com Redux]()
+##### Seção 7: [Gerenciamento de Estado com Redux](https://github.com/brunokye/trybe-exercicios/tree/main/02-front-end/secao-07-gerenciamento-de-estado-com-redux)
 - [x] 7.1: Introdução ao Redux - O estado global da aplicação
 - [x] 7.2: Usando o Redux no React
 - [x] 7.3: Usando o Redux no React - Prática
