@@ -67,7 +67,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 8.5: JavaScript ES6 - spread operator, rest parameter, destructuring e mais
 - [x] 8.6: [Projeto - Zoo functions](https://github.com/brunokye/trybe-06-zoo-functions)
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :heavy_check_mark:
 
 ##### Seção 1: [JavaScript e Testes Assíncronos](https://github.com/brunokye/trybe-exercicios/tree/main/02-front-end/secao-01-javascript-assincrono)
 - [x] 1.1: Introdução - Front-end
