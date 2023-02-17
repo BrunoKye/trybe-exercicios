@@ -23,7 +23,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 3.2: HTML & CSS - Primeiros passos em CSS
 - [x] 3.3: HTML & CSS - Seletores e posicionamento
 - [x] 3.4: HTML Semântico
-- [x] 3.5: [Projeto - Lessons Learned](https://github.com/brunokye/projeto-01-lessons-learned)
+- [x] 3.5: [Projeto - Lessons Learned](https://github.com/brunokye/trybe-01-lessons-learned)
 
 ##### Bloco 4: [Introdução à JavaScript e Lógica de Programação](https://github.com/brunokye/trybe-exercicios/tree/main/01-fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao)
 - [x] 4.1: Introdução - JavaScript
@@ -31,14 +31,14 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 4.2: JavaScript - Array e loop For
 - [x] 4.3: JavaScript - Lógica de Programação e Algoritmos
 - [x] 4.4: JavaScript - Objetos e funções
-- [x] 4.5: [Projeto - Playground Functions](https://github.com/brunokye/projeto-02-playground-functions)
+- [x] 4.5: [Projeto - Playground Functions](https://github.com/brunokye/trybe-02-playground-functions)
 
 ##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/brunokye/trybe-exercicios/tree/main/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage)
 - [x] 5.1: JavaScript - DOM e seletores
 - [x] 5.2: JavaScript - Trabalhando com elementos
 - [x] 5.3: JavaScript - Eventos
 - [x] 5.4: JavaScript - Web Storage
-- [x] 5.5: [Projeto - Pixel Art](https://github.com/brunokye/projeto-03-pixel-art)
+- [x] 5.5: [Projeto - Pixel Art](https://github.com/brunokye/trybe-03-pixel-art)
 - [ ] 5.6: [Projeto - Lista de tarefas]()
 - [ ] 5.7: [Projeto - Meme Generator]()
 - [ ] 5.7: [Projeto - Adivinhe a Cor]()
@@ -51,13 +51,13 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 6.3: CSS Flexbox - Part 1
 - [x] 6.4: CSS Flexbox - Part 2
 - [x] 6.5: CSS Responsivo - Mobile First 
-- [x] 6.6: [Projeto - Trybewarts](https://github.com/brunokye/projeto-04-trybewarts)
+- [x] 6.6: [Projeto - Trybewarts](https://github.com/brunokye/trybe-04-trybewarts)
 
 ##### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/brunokye/trybe-exercicios/tree/main/01-fundamentos/bloco-07-introducao-a-javascript-es6-e-testes-unitarios)
 - [x] 7.1: JavaScript ES6 - let, const, arrow functions e template literals
 - [x] 7.2: JavaScript ES6 - Fluxo de exceção e Objetos
 - [x] 7.3: Primeiros passos em Jest
-- [x] 7.4: [Projeto - JavaScript Unit Tests](https://github.com/brunokye/projeto-05-unit-tests)
+- [x] 7.4: [Projeto - JavaScript Unit Tests](https://github.com/brunokye/trybe-05-unit-tests)
 
 ##### Bloco 8: [Higher Order Functions do JavaScript ES6](https://github.com/brunokye/trybe-exercicios/tree/main/01-fundamentos/bloco-08-higher-order-functions-do-javascript-es6)
 - [x] 8.1: JavaScript ES6 - Introdução a Higher Order Functions
@@ -65,7 +65,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 8.3: JavaScript ES6 - Higher Order Functions - map e filter
 - [x] 8.4: JavaScript ES6 - Higher Order Functions - reduce
 - [x] 8.5: JavaScript ES6 - spread operator, rest parameter, destructuring e mais
-- [x] 8.6: [Projeto - Zoo functions](https://github.com/brunokye/projeto-06-zoo-functions)
+- [x] 8.6: [Projeto - Zoo functions](https://github.com/brunokye/trybe-06-zoo-functions)
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
@@ -74,33 +74,33 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 1.1: JavaScript Assíncrono e Callbacks
 - [x] 1.2: JavaScript Assíncrono - Fetch API e async/await
 - [x] 1.3: Jest - Testes Assíncronos
-- [x] 1.4: [Projeto - Shopping Cart](https://github.com/brunokye/projeto-07-shopping-cart)
+- [x] 1.4: [Projeto - Shopping Cart](https://github.com/brunokye/trybe-07-shopping-cart)
 
 ##### Seção 2: [Introdução à React](https://github.com/brunokye/trybe-exercicios/tree/main/02-front-end/secao-02-introducao-ao-react)
 - [x] 2.1: Introdução - React
 - [x] 2.1: 'Hello, world!' no React!
 - [x] 2.2: Componentes React
-- [x] 2.3: [Projeto - Solar System](https://github.com/brunokye/projeto-08-solar-system)
+- [x] 2.3: [Projeto - Solar System](https://github.com/brunokye/trybe-08-solar-system)
 
 ##### Seção 3: [Componentes com Estados, Eventos e Formulários com React](https://github.com/brunokye/trybe-exercicios/tree/main/02-front-end/secao-03-estado-eventos-e-formularios-com-react)
 - [x] 3.1: Components com estado e eventos
 - [x] 3.2: Formulários no React
-- [x] 3.3: [Projeto - Tryunfo](https://github.com/brunokye/projeto-09-tryunfo)
+- [x] 3.3: [Projeto - Tryunfo](https://github.com/brunokye/trybe-09-tryunfo)
 
 ##### Seção 4: [Ciclo de Vida de Componentes e React Router](https://github.com/brunokye/trybe-exercicios/tree/main/02-front-end/secao-04-ciclo-de-vida-e-react-router)
 - [x] 4.1: Ciclo de vida de componentes
 - [x] 4.2: React Router
-- [x] 4.3: [Projeto - TrybeTunes](https://github.com/brunokye/projeto-10-trybetunes)
+- [x] 4.3: [Projeto - TrybeTunes](https://github.com/brunokye/trybe-10-trybetunes)
 
-##### Seção 5: [Metodologias Ágeis](https://github.com/brunokye/projeto-11-frontend-online-store)
+##### Seção 5: [Metodologias Ágeis](https://github.com/brunokye/trybe-11-frontend-online-store)
 - [x] 5.1: Metodologias Ágeis
-- [x] 5.2: [Projeto - Frontend Online Store](https://github.com/brunokye/projeto-11-frontend-online-store)
+- [x] 5.2: [Projeto - Frontend Online Store](https://github.com/brunokye/trybe-11-frontend-online-store)
 
 ##### Seção 6: [Testes Automatizados com React Testing Library](https://github.com/brunokye/trybe-exercicios/tree/main/02-front-end/secao-06-testes-automatizados-com-react-testing-library)
 - [x] 6.1: RTL - Primeiros passos
 - [x] 6.2: RTL - Mocks e Inputs
 - [x] 6.3: RTL - Testando React Router
-- [x] 6.4: [Projeto - Testes em React](https://github.com/brunokye/projeto-12-react-testing-library)
+- [x] 6.4: [Projeto - Testes em React](https://github.com/brunokye/trybe-12-react-testing-library)
 
 ##### Seção 7: [Gerenciamento de Estado com Redux](https://github.com/brunokye/trybe-exercicios/tree/main/02-front-end/secao-07-gerenciamento-de-estado-com-redux)
 - [x] 7.1: Introdução ao Redux - O estado global da aplicação
@@ -108,35 +108,35 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 7.3: Usando o Redux no React - Prática
 - [x] 7.4: Usando o Redux no React - Actions Assíncronas
 - [x] 7.5: Testes em React-Redux
-- [ ] 7.6: [Projeto - Trybe Wallet]()
+- [x] 7.6: [Projeto - Trybe Wallet]()
 
 ##### Seção 8: [Projeto Jogo de Trivia]()
-- [ ] 8.1: Projeto - Jogo de Trivia
+- [x] 8.1: Projeto - Jogo de Trivia
 
-##### Seção 9: [Context API e React Hooks]()
-- [ ] 9.1: Context API do React
-- [ ] 9.2: React Hooks - useState e useContext
-- [ ] 9.3: React Hooks - useEffect e Hooks customizados
-- [ ] 9.4: [Projeto - StarWars Datatable com Context API e Hooks]()
+##### Seção 9: [Context API e React Hooks](https://github.com/brunokye/trybe-exercises/tree/main/02-front-end/secao-08-context-api-e-react-hooks)
+- [x] 9.1: Context API do React
+- [x] 9.2: React Hooks - useState e useContext
+- [x] 9.3: React Hooks - useEffect e Hooks customizados
+- [x] 9.4: [Projeto - StarWars Datatable com Context API e Hooks]()
 
 ##### Seção 10: [Projeto App de Receitas]()
-- [ ] 10-1: Projeto - App de Receitas
+- [x] 10-1: Projeto - App de Receitas
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Seção 1: [Docker: Utilizando Containers]()
-- [ ] 1.1: Introdução - Back-end
-- [ ] 1.2: Utilizando Containers - Docker
-- [ ] 1.3: Manipulando Imagens no Docker
-- [ ] 1.4: Orquestrando Containers com Docker Compose
-- [ ] 1.5: [Projeto - Docker Todo-List]()
+##### Seção 1: [Docker: Utilizando Containers](https://github.com/brunokye/trybe-exercises/tree/main/03-back-end/secao-01-docker)
+- [x] 1.1: Introdução - Back-end
+- [x] 1.2: Utilizando Containers - Docker
+- [x] 1.3: Manipulando Imagens no Docker
+- [x] 1.4: Orquestrando Containers com Docker Compose
+- [x] 1.5: [Projeto - Docker Todo-List]()
 
-##### Seção 2: [Introdução à SQL]()
-- [ ] 2.1: Introdução - Bancos de dados relacionais
-- [ ] 2.1: Banco de dados SQL
-- [ ] 2.2: Encontrando dados em um banco de dados
-- [ ] 2.3: Filtrando dados de forma específica
-- [ ] 2.4: Manipulando tabelas
+##### Seção 2: [Introdução à SQL](https://github.com/brunokye/trybe-exercises/tree/main/03-back-end/secao-02-sql)
+- [x] 2.1: Introdução - Bancos de dados relacionais
+- [x] 2.1: Banco de dados SQL
+- [x] 2.2: Encontrando dados em um banco de dados
+- [x] 2.3: Filtrando dados de forma específica
+- [x] 2.4: Manipulando tabelas
 - [ ] 2.5: [Projeto - All For One]()
 
 ##### Seção 3: [Funções SQL, JOINs e Normalização]()
