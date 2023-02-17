@@ -1,0 +1,38 @@
+.emails-list {
+  padding: 1em;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #CCC;
+  margin: 0 auto;
+}
+
+.emails-list li {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+    transition: box-shadow .3s;
+}
+
+.emails-list li:hover {
+  box-shadow: 0px 0px 3px 0px #2fc18c;
+
+}
+
+.emails-list button {
+  margin-right: 2em;
+}
+
+.emails-title {
+  margin: 0px;
+  flex: 1;
+}
+
+.email-read {
+  color: #777;
+}
+
+.email-unread {
+  font-weight: bold;
+}
