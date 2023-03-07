@@ -108,19 +108,19 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 7.3: Usando o Redux no React - Prática
 - [x] 7.4: Usando o Redux no React - Actions Assíncronas
 - [x] 7.5: Testes em React-Redux
-- [x] 7.6: [Projeto - Trybe Wallet]()
+- [x] 7.6: [Projeto - Trybe Wallet](https://github.com/brunokye/trybe-13-trybewallet)
 
-##### Seção 8: [Projeto Jogo de Trivia]()
+##### Seção 8: [Projeto Jogo de Trivia](https://github.com/brunokye/trybe-14-trivia)
 - [x] 8.1: Projeto - Jogo de Trivia
 
 ##### Seção 9: [Context API e React Hooks](https://github.com/brunokye/trybe-exercises/tree/main/02-front-end/secao-08-context-api-e-react-hooks)
 - [x] 9.1: Context API do React
 - [x] 9.2: React Hooks - useState e useContext
 - [x] 9.3: React Hooks - useEffect e Hooks customizados
-- [x] 9.4: [Projeto - StarWars Datatable com Context API e Hooks]()
+- [x] 9.4: [Projeto - StarWars Datatable com Context API e Hooks](https://github.com/brunokye/trybe-15-starwars-planets-search)
 
-##### Seção 10: [Projeto App de Receitas]()
-- [x] 10-1: Projeto - App de Receitas
+##### Seção 10: [Projeto App de Receitas](https://github.com/brunokye/trybe-16-recipes-app)
+- [x] 10.1: Projeto - App de Receitas
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
@@ -129,7 +129,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 1.2: Utilizando Containers - Docker
 - [x] 1.3: Manipulando Imagens no Docker
 - [x] 1.4: Orquestrando Containers com Docker Compose
-- [x] 1.5: [Projeto - Docker Todo-List]()
+- [x] 1.5: [Projeto - To Do List](https://github.com/brunokye/trybe-17-to-do-list)
 
 ##### Seção 2: [Introdução à SQL](https://github.com/brunokye/trybe-exercises/tree/main/03-back-end/secao-02-sql)
 - [x] 2.1: Introdução - Bancos de dados relacionais
@@ -137,13 +137,13 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 2.2: Encontrando dados em um banco de dados
 - [x] 2.3: Filtrando dados de forma específica
 - [x] 2.4: Manipulando tabelas
-- [ ] 2.5: [Projeto - All For One]()
+- [X] 2.5: [Projeto - All For One](https://github.com/brunokye/trybe-18-all-for-one)
 
-##### Seção 3: [Funções SQL, JOINs e Normalização]()
-- [ ] 3.1: Funções mais usadas no SQL
-- [ ] 3.2: Descomplicando JOINs
-- [ ] 3.3: Transformando ideias em um modelo de banco de dados
-- [ ] 3.4: Aula ao vivo + [Projeto - One For ALl]()
+##### Seção 3: [Funções SQL, JOINs e Normalização](https://github.com/brunokye/trybe-exercises/tree/main/03-back-end/secao-03-funcoes-sql-joins-e-normalizacao)
+- [X] 3.1: Funções mais usadas no SQL
+- [X] 3.2: Descomplicando JOINs
+- [X] 3.3: Transformando ideias em um modelo de banco de dados
+- [X] 3.4: [Projeto - One For All](https://github.com/brunokye/trybe-19-one-for-all)
 
 ##### Seção 4: [Introdução ao Desenvolvimento Web com Node.js]()
 - [ ] 4.1: Intro - Node.js
