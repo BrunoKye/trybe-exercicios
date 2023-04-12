@@ -145,30 +145,30 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [X] 3.3: Transformando ideias em um modelo de banco de dados
 - [X] 3.4: [Projeto - One For All](https://github.com/brunokye/trybe-19-one-for-all)
 
-##### Seção 4: [Introdução ao Desenvolvimento Web com Node.js]()
-- [ ] 4.1: Intro - Node.js
-- [ ] 4.1: Node.js - Um motor JavaScript
-- [ ] 4.2: Node.js - Fluxo Assíncrono
-- [ ] 4.3: Mocha, Chai e Sinon - Testes de Back-end com Node.js
-- [ ] 4.4: Express - HTTP com Node.js
-- [ ] 4.5: Express - Middlewares
-- [ ] 4.6: Atividades + [Projetos - Talker Manager]()
+##### Seção 4: [Introdução ao Desenvolvimento Web com Node.js](https://github.com/brunokye/trybe-exercises/tree/main/03-back-end/secao-04-node-js)
+- [X] 4.1: Intro - Node.js
+- [X] 4.1: Node.js - Um motor JavaScript
+- [X] 4.2: Node.js - Fluxo Assíncrono
+- [X] 4.3: Mocha, Chai e Sinon - Testes de Back-end com Node.js
+- [X] 4.4: Express - HTTP com Node.js
+- [X] 4.5: Express - Middlewares
+- [X] 4.6: [Projeto - Talker Manager](https://github.com/brunokye/trybe-20-talker-manager)
 
-##### Seção 5: [Node.js: Camada de Serviço e Arquitetura Rest e Restful]()
-- [ ] 5.1: Introdução - Arquitetura de Software
-- [ ] 5.1: Arquitetura de Software - Camada de Model
-- [ ] 5.2: Arquitetura de Software - Camada de Controller e Service
-- [ ] 5.3: Arquitetura Web - Rest e Restful
-- [ ] 5.4: Arquitetura de Software - Testando as Camadas
-- [ ] 5.5: [Projeto - Store Manager]()
+##### Seção 5: [Node.js: Camada de Serviço e Arquitetura Rest e Restful](https://github.com/brunokye/trybe-exercises/tree/main/03-back-end/secao-05-arquitetura-de-software)
+- [X] 5.1: Introdução - Arquitetura de Software
+- [X] 5.1: Arquitetura de Software - Camada de Model
+- [X] 5.2: Arquitetura de Software - Camada de Controller e Service
+- [X] 5.3: Arquitetura Web - Rest e Restful
+- [X] 5.4: Arquitetura de Software - Testando as Camadas
+- [X] 5.5: [Projeto - Store Manager](https://github.com/brunokye/trybe-21-store-manager)
 
-##### Seção 6: [Node.js: ORM e Autenticação]()
-- [ ] 6.1: Introdução - Node.js: ORM e Autenticação
-- [ ] 6.1: ORM - Interface da aplicação com o banco de dados
-- [ ] 6.2: ORM - Associations
-- [ ] 6.3: JWT - (JSON Web Token)
-- [ ] 6.4: Testando APIs com Testes de Intengração
-- [ ] 6.5: [Projeto - API de Blogs]()
+##### Seção 6: [Node.js: ORM e Autenticação](https://github.com/brunokye/trybe-exercises/tree/main/03-back-end/secao-06-node.js-orm-e-autenticacao)
+- [X] 6.1: Introdução - Node.js: ORM e Autenticação
+- [X] 6.1: ORM - Interface da aplicação com o banco de dados
+- [X] 6.2: ORM - Associations
+- [X] 6.3: JWT - (JSON Web Token)
+- [X] 6.4: Testando APIs com Testes de Intengração
+- [X] 6.5: [Projeto - API de Blogs]()
 
 ##### Seção 7: [Deployment]()
 - [ ] 7.1: Introdução à Deploy
