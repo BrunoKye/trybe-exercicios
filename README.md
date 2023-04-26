@@ -110,17 +110,17 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 7.5: Testes em React-Redux
 - [x] 7.6: [Projeto - Trybe Wallet](https://github.com/brunokye/trybe-13-trybewallet)
 
-##### Seção 8: [Projeto Jogo de Trivia](https://github.com/brunokye/trybe-14-trivia)
-- [x] 8.1: Projeto - Jogo de Trivia
+##### Seção Extra: [Projeto Jogo de Trivia](https://github.com/brunokye/trybe-14-trivia)
+- [x] Projeto - Jogo de Trivia
 
-##### Seção 9: [Context API e React Hooks](https://github.com/brunokye/trybe-exercises/tree/main/02-front-end/secao-08-context-api-e-react-hooks)
-- [x] 9.1: Context API do React
-- [x] 9.2: React Hooks - useState e useContext
-- [x] 9.3: React Hooks - useEffect e Hooks customizados
-- [x] 9.4: [Projeto - StarWars Datatable com Context API e Hooks](https://github.com/brunokye/trybe-15-starwars-planets-search)
+##### Seção 8: [Context API e React Hooks](https://github.com/brunokye/trybe-exercises/tree/main/02-front-end/secao-08-context-api-e-react-hooks)
+- [x] 8.1: Context API do React
+- [x] 8.2: React Hooks - useState e useContext
+- [x] 8.3: React Hooks - useEffect e Hooks customizados
+- [x] 8.4: [Projeto - StarWars Datatable com Context API e Hooks](https://github.com/brunokye/trybe-15-starwars-planets-search)
 
-##### Seção 10: [Projeto App de Receitas](https://github.com/brunokye/trybe-16-recipes-app)
-- [x] 10.1: Projeto - App de Receitas
+##### Seção Extra: [Projeto App de Receitas](https://github.com/brunokye/trybe-16-recipes-app)
+- [x] Projeto - App de Receitas
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
@@ -168,51 +168,48 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [X] 6.2: ORM - Associations
 - [X] 6.3: JWT - (JSON Web Token)
 - [X] 6.4: Testando APIs com Testes de Intengração
-- [X] 6.5: [Projeto - API de Blogs]()
+- [X] 6.5: [Projeto - Blogs API](https://github.com/brunokye/trybe-22-blogs-api)
 
-##### Seção 7: [Deployment]()
-- [ ] 7.1: Introdução à Deploy
-- [ ] 7.1: Infraestrutura - Deploy com Heroku
-- [ ] 7.2: Deploy Docker & Heroku
-- [ ] 7.3: [Projeto - Stranger Things]()
+##### Seção Extra: [Masterclass: Implantação de Aplicações na Nuvem](https://railway.app/)
+- [X] Infraestrutura: Deploy com Railway
 
-##### Seção 8: [TypeScript]()
-- [ ] 8.1: Introdução à TypeScript
-- [ ] 8.2: Tipagem Estática e Generics
-- [ ] 8.3: Express com TypeScript
-- [ ] 8.4: [Projeto - Trybe Smith]()
+##### Seção 7: [TypeScript](https://github.com/brunokye/trybe-exercises/tree/main/03-back-end/secao-07-typescript)
+- [X] 7.1: Introdução à TypeScript
+- [X] 7.2: Tipagem Estática e Generics
+- [X] 7.3: Express com TypeScript
+- [X] 7.4: [Projeto - Trybe Smith]()
 
-##### Seção 9: [Programação Orientada a Objetos (POO) e SOLID]()
-- [ ] 9.1: Introdução à Orientação a Objetos
-- [ ] 9.2: Heranças e Interfaces
-- [ ] 9.3: Polimorfismo
-- [ ] 9.4: SOLID - Introdução e Princípios S, O e D
-- [ ] 9.5: SOLID - Princípios L e I
-- [ ] 9.6: [Projeto - Trybers and Dragons]()
+##### Seção 8: [Programação Orientada a Objetos (POO) e SOLID]()
+- [ ] 8.1: Introdução à Orientação a Objetos
+- [ ] 8.2: Heranças e Interfaces
+- [ ] 8.3: Polimorfismo
+- [ ] 8.4: SOLID - Introdução e Princípios S, O e D
+- [ ] 8.5: SOLID - Princípios L e I
+- [ ] 8.6: [Projeto - Trybers and Dragons]()
 
-##### Seção 10: [Projeto - TFC - Trybe Futebol Clube]()
-- [ ] 10.1: Projeto - TFC - Trybe Futebol CLube
+##### Seção Extra: [Projeto - TFC - Trybe Futebol Clube]()
+- [ ] Projeto - TFC - Trybe Futebol CLube
 
-##### Seção 11: [Introdução ao MongoDB]()
-- [ ] 11.1: Introdução - NoSQL
-- [ ] 11.1: MongoDB - Introdução
-- [ ] 11.2: Filter Operators
-- [ ] 11.3: Operadores de consulta
-- [ ] 11.4: Updates Simples
-- [ ] 11.5: Updates Complexos - Arrays
-- [ ] 11.6: [Projeto - Commerces]()
+##### Seção 9: [Introdução ao MongoDB]()
+- [ ] 9.1: Introdução - NoSQL
+- [ ] 9.1: MongoDB - Introdução
+- [ ] 9.2: Filter Operators
+- [ ] 9.3: Operadores de consulta
+- [ ] 9.4: Updates Simples
+- [ ] 9.5: Updates Complexos - Arrays
+- [ ] 9.6: [Projeto - Commerces]()
 
-##### Seção 12: [MongoDB com Node.js e POO]()
-- [ ] 12.1: Mongoose e arquitetura MSC (camada model)
-- [ ] 12.2: Mongoose e arquitetura MSC (camada Service e Controller)
-- [ ] 12.3: [Projeto - Car Shop]()
+##### Seção 10: [MongoDB com Node.js e POO]()
+- [ ] 10.1: Mongoose e arquitetura MSC (camada model)
+- [ ] 10.2: Mongoose e arquitetura MSC (camada Service e Controller)
+- [ ] 10.3: [Projeto - Car Shop]()
 
-##### Seção 13: [Projeto - App de Delivery]()
-- [ ] 13.1: Projeto - App de Delivery
+##### Seção Extra: [Projeto - App de Delivery]()
+- [ ] Projeto - App de Delivery
 
-##### Seção 14: [MasterCLass - VPS, CI/CD]()
-- [ ] 14.1: Dia 1 - VPS
-- [ ] 14.2: Dia 2 - VPS
+##### Seção 11: [MasterCLass - VPS, CI/CD]()
+- [ ] 11.1: Dia 1 - VPS
+- [ ] 11.2: Dia 2 - VPS
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
