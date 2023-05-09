@@ -177,15 +177,15 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [X] 7.1: Introdução à TypeScript
 - [X] 7.2: Tipagem Estática e Generics
 - [X] 7.3: Express com TypeScript
-- [X] 7.4: [Projeto - Trybe Smith]()
+- [X] 7.4: [Projeto - Trybe Smith](https://github.com/brunokye/trybe-23-trybesmith)
 
-##### Seção 8: [Programação Orientada a Objetos (POO) e SOLID]()
-- [ ] 8.1: Introdução à Orientação a Objetos
-- [ ] 8.2: Heranças e Interfaces
-- [ ] 8.3: Polimorfismo
-- [ ] 8.4: SOLID - Introdução e Princípios S, O e D
-- [ ] 8.5: SOLID - Princípios L e I
-- [ ] 8.6: [Projeto - Trybers and Dragons]()
+##### Seção 8: [Programação Orientada a Objetos (POO) e SOLID](https://github.com/brunokye/trybe-exercises/tree/main/03-back-end/secao-08-poo-e-solid)
+- [X] 8.1: Introdução à Orientação a Objetos
+- [X] 8.2: Heranças e Interfaces
+- [X] 8.3: Polimorfismo
+- [X] 8.4: SOLID - Introdução e Princípios S, O e D
+- [X] 8.5: SOLID - Princípios L e I
+- [X] 8.6: [Projeto - Trybers and Dragons](https://github.com/brunokye/trybe-24-trybers-and-dragons)
 
 ##### Seção Extra: [Projeto - TFC - Trybe Futebol Clube]()
 - [ ] Projeto - TFC - Trybe Futebol CLube
