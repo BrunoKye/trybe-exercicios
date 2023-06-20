@@ -122,7 +122,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 ##### Seção Extra: [Projeto App de Receitas](https://github.com/brunokye/trybe-16-recipes-app)
 - [x] Projeto - App de Receitas
 
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## Desenvolvimento Back-end :heavy_check_mark:
 
 ##### Seção 1: [Docker: Utilizando Containers](https://github.com/brunokye/trybe-exercises/tree/main/03-back-end/secao-01-docker)
 - [x] 1.1: Introdução - Back-end
@@ -188,65 +188,30 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [X] 8.6: [Projeto - Trybers and Dragons](https://github.com/brunokye/trybe-24-trybers-and-dragons)
 
 ##### Seção Extra: [Projeto - TFC - Trybe Futebol Clube]()
-- [ ] Projeto - TFC - Trybe Futebol CLube
-
-##### Seção 9: [Introdução ao MongoDB]()
-- [ ] 9.1: Introdução - NoSQL
-- [ ] 9.1: MongoDB - Introdução
-- [ ] 9.2: Filter Operators
-- [ ] 9.3: Operadores de consulta
-- [ ] 9.4: Updates Simples
-- [ ] 9.5: Updates Complexos - Arrays
-- [ ] 9.6: [Projeto - Commerces]()
-
-##### Seção 10: [MongoDB com Node.js e POO]()
-- [ ] 10.1: Mongoose e arquitetura MSC (camada model)
-- [ ] 10.2: Mongoose e arquitetura MSC (camada Service e Controller)
-- [ ] 10.3: [Projeto - Car Shop]()
-
-##### Seção Extra: [Projeto - App de Delivery]()
-- [ ] Projeto - App de Delivery
-
-##### Seção 11: [MasterCLass - VPS, CI/CD]()
-- [ ] 11.1: Dia 1 - VPS
-- [ ] 11.2: Dia 2 - VPS
+- [x] Projeto - TFC - Trybe Futebol Clube
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
-##### Seção 1: [Introdução à Python]()
-- [ ] 1.1: Introdução - Ciência da Computação
-- [ ] 1.1: Aprendendo Python
-- [ ] 1.2: Entrada e Saída de Dados
-- [ ] 1.3: Testes
-- [ ] 1.4: [Projeto - Job Insights]()
+##### Seção 1: [Introdução à Python](https://github.com/brunokye/trybe-exercises/tree/main/04-ciencia-da-computacao/secao-01-introducao-a-python)
+- [X] 1.1: Aprendendo Python
+- [X] 1.2: Entrada e Saída de Dados com Testes
 
-##### Seção 2: [Padrões em Projeto]()
-- [ ] 2.1: P.O.O em Python
-- [ ] 2.2: Padrões - Iterator, Adapter e Strategy
-- [ ] 2.3: Padrões - Decorator, Observer e Factory
-- [ ] 2.4: [Projeto - Relatórios de Estoque]()
+##### Seção 2: [Algoritmos](https://github.com/brunokye/trybe-exercises/tree/main/04-ciencia-da-computacao/secao-02-algoritmos)
+- [X] 2.1: Complexidade de Algoritmos
+- [X] 2.2: Recursividade e Estratégias para solução de problemas
+- [X] 2.3: Algoritmos de ordenação e busca
+- [X] 2.4: [Projeto - Algoritmos]()
 
-##### Seção 3: [Redes e Raspagem de Dados]()
-- [ ] 3.1: Arquitetura de redes, ferramentas e segurança
-- [ ] 3.2: Raspagem de Dados
-- [ ] 3.3: [Projeto - Tech news]()
+##### Seção 3: [Estrutura de Dados I: Listas Lineares](https://github.com/brunokye/trybe-exercises/tree/main/04-ciencia-da-computacao/secao-03-listas-lineares)
+- [X] 3.1: P.O.O em Python
+- [X] 3.2: Arrays
+- [X] 3.3: Nó e Listas Encadeadas
+- [X] 3.4: Pilhas e Filas
+- [X] 3.5: [Projeto - TING - Trybe Is Not Google]()
 
-##### Seção 4: [Algoritmos]()
-- [ ] 4.1: Complexidade de Algoritmos
-- [ ] 4.2: Recursividade e Estratégias para solução de problemas
-- [ ] 4.3: Algoritmos de ordenação e busca
-- [ ] 4.4: [Projeto - Algoritmos]()
-
-##### Seção 5: [Estrutura de Dados I: Arrays, Listas, Filas e Pilhas]()
-- [ ] 5.1: Arquitetura de Computadores
-- [ ] 5.2: Arrays
-- [ ] 5.3: Nó e Listas Encadeadas
-- [ ] 5.4: Pilhas e Filas
-- [ ] 5.5: [Projeto - TING - Trybe Is Not Google]()
-
-##### Seção 6: [Estrutura de Dados II: Hashmaps e Sets]()
-- [ ] 6.1: Hashmap e Dict
-- [ ] 6.2: Set
-- [ ] 6.3: [Projeto - Restaurant Orders]()
+##### Seção 4: [Estrutura de Dados II: Hashmaps e Sets](https://github.com/brunokye/trybe-exercises/tree/main/04-ciencia-da-computacao/secao-04-hasmaps-e-sets)
+- [X] 4.1: Hashmap e Dict
+- [X] 4.2: Set
+- [ ] 4.3: [Projeto - Restaurant Orders]()
 
 # [...]
