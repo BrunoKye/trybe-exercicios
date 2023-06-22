@@ -39,10 +39,6 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 5.3: JavaScript - Eventos
 - [x] 5.4: JavaScript - Web Storage
 - [x] 5.5: [Projeto - Pixel Art](https://github.com/brunokye/trybe-03-pixel-art)
-- [ ] 5.6: [Projeto - Lista de tarefas]()
-- [ ] 5.7: [Projeto - Meme Generator]()
-- [ ] 5.7: [Projeto - Adivinhe a Cor]()
-- [ ] 5.7: [Projeto - Carta Misteriosa]()
 
 ##### Bloco 6: [HTML & CSS: Forms, Flexbox e Responsivo](https://github.com/brunokye/trybe-exercicios/tree/main/01-fundamentos/bloco-06-html-e-css-forms-flexbox-e-responsivo)
 - [x] 6.1: HTML & CSS - Forms
@@ -187,10 +183,10 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [X] 8.5: SOLID - Princípios L e I
 - [X] 8.6: [Projeto - Trybers and Dragons](https://github.com/brunokye/trybe-24-trybers-and-dragons)
 
-##### Seção Extra: [Projeto - TFC - Trybe Futebol Clube]()
-- [x] Projeto - TFC - Trybe Futebol Clube
+##### Seção Extra: [Projeto - Trybe Futebol Clube](https://github.com/brunokye/trybe-25-soccer-club)
+- [x] Projeto - Trybe Futebol Clube
 
-## Ciência da Computação :hourglass_flowing_sand:
+## Ciência da Computação :heavy_check_mark:
 
 ##### Seção 1: [Introdução à Python](https://github.com/brunokye/trybe-exercises/tree/main/04-ciencia-da-computacao/secao-01-introducao-a-python)
 - [X] 1.1: Aprendendo Python
@@ -200,18 +196,18 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [X] 2.1: Complexidade de Algoritmos
 - [X] 2.2: Recursividade e Estratégias para solução de problemas
 - [X] 2.3: Algoritmos de ordenação e busca
-- [X] 2.4: [Projeto - Algoritmos]()
+- [X] 2.4: [Projeto - Algoritmos](https://github.com/brunokye/trybe-27-algorithms)
 
 ##### Seção 3: [Estrutura de Dados I: Listas Lineares](https://github.com/brunokye/trybe-exercises/tree/main/04-ciencia-da-computacao/secao-03-listas-lineares)
 - [X] 3.1: P.O.O em Python
 - [X] 3.2: Arrays
 - [X] 3.3: Nó e Listas Encadeadas
 - [X] 3.4: Pilhas e Filas
-- [X] 3.5: [Projeto - TING - Trybe Is Not Google]()
+- [X] 3.5: [Projeto - TING - Trybe Is Not Google](https://github.com/brunokye/trybe-28-ting)
 
 ##### Seção 4: [Estrutura de Dados II: Hashmaps e Sets](https://github.com/brunokye/trybe-exercises/tree/main/04-ciencia-da-computacao/secao-04-hasmaps-e-sets)
 - [X] 4.1: Hashmap e Dict
 - [X] 4.2: Set
-- [ ] 4.3: [Projeto - Restaurant Orders]()
+- [X] 4.3: [Projeto - Restaurant Orders](https://github.com/brunokye/trybe-29-restaurant-orders)
 
 # [...]
