@@ -203,7 +203,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [X] 3.2: Arrays
 - [X] 3.3: Nó e Listas Encadeadas
 - [X] 3.4: Pilhas e Filas
-- [X] 3.5: [Projeto - TING - Trybe Is Not Google](https://github.com/brunokye/trybe-28-ting)
+- [X] 3.5: [Projeto - Trybe is not Google](https://github.com/brunokye/trybe-28-ting)
 
 ##### Seção 4: [Estrutura de Dados II: Hashmaps e Sets](https://github.com/brunokye/trybe-exercises/tree/main/04-ciencia-da-computacao/secao-04-hasmaps-e-sets)
 - [X] 4.1: Hashmap e Dict
